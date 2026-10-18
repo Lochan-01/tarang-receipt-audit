@@ -30,3 +30,8 @@ This log tracks the AI models, tools, prompts, experiments, errors encountered, 
 #### 4. Naive Rule (< Rs 2,000 Auto-Approve) Analysis
 - **Finding:** Testing Nilesh's literal rule on `claims_train.csv` revealed it would auto-approve 8 explicitly rejected/queried claims (tampered bill, completely blurry photos, missing photos, and duplicate claims), and would miss 8 additional duplicate claims (Rs 3,102.40) that human clerks accidentally approved.
 - **Decision:** Architected the Safety-Filtered Approval layer to protect against leakage while automating >75% of compliant claims.
+
+#### 5. Local OCR Extraction & Multiline Table Layouts
+- **Issue:** Multi-column layout bills (e.g. Dhaba order pads like CLM-30412) separated `Bill No.` and `1223`, and `Total Rs.` and `330` into separate horizontal text boxes across lines. Single-line regex missed them.
+- **Fix:** Enhanced `tarang.extractor.local_ocr` with multi-line lookahead parsing. Tested on local RapidOCR CPU engine and achieved 100% extraction on ground truth fields without API keys.
+
