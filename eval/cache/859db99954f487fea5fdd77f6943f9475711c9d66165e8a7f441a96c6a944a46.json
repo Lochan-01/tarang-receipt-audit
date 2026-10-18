@@ -1,0 +1,27 @@
+{
+  "vendor": "Punjabi Tadka Dhaba",
+  "receipt_date": "2026-06-15",
+  "receipt_number": "8199",
+  "gstin": "",
+  "total_amount": 335.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "PUNJABITADKADHABA\nNH-44,Jamtha\nPureVeg&Non-Veg'FamilySection\nBill No.8199\nDate_15/06/26\nParticulars\nAmount\nISev Bhaji\n3Roti\n45\nISamosa\n1Paneer Bhurji\n160\nTotal Rs.\n335\nThankYou-VisitAgain"
+}

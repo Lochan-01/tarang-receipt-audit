@@ -1,0 +1,29 @@
+{
+  "vendor": "Cafe Coffee Corner",
+  "receipt_date": "2026-08-03",
+  "receipt_number": "",
+  "gstin": "27TABPX3765R2Z6",
+  "total_amount": 567.0,
+  "subtotal": 540.0,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (540.0) + tax (32.0) = 572.00 != total (567.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (540.0) + tax (32.0) = 572.00 != total (567.0)"
+  ],
+  "raw_text": "CAFE COFFEE CORNER\nRajkamal Chowk,Amravati\nPh:e712-2323311\nGSTIN:27TABPX3765R2Z6\nTAX INVOICE\nB111 No:A/1594\nTable:8\nDate:03-08-2026\n1:34PM\nSteward: Sunil\nItem\nQty\nAmount\nMasala Dosa\n140.00\nFresh Lime Soda\n140.00\nPaneer Butter Masala\n260.00\nSub Total\n540.00\nCGST @2.5%\n13.50\nSGST @2.5%\n13.50\nRound Off\n+0.00\nRS\n567.00\nGRAND\nTOTAL\nItems:\npaidvisit again!\noigayMode:Card\nThank"
+}

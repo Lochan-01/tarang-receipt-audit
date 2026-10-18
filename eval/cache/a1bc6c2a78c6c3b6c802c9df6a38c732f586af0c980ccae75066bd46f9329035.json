@@ -1,0 +1,29 @@
+{
+  "vendor": "Route Spice Kitchen",
+  "receipt_date": "2026-06-09",
+  "receipt_number": "",
+  "gstin": "27NCRPN1784A3Z1",
+  "total_amount": 0.0,
+  "subtotal": 8.75,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.5,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (8.75) + tax (32.0) = 40.75 != total (0.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (8.75) + tax (32.0) = 40.75 != total (0.0)"
+  ],
+  "raw_text": "SPICEROUTEKITCHEN\nCivil Lines, Nagpur\nPh:0712-2765565\nGSTIN:27NCRPN1784A3Z1\nTAX INVOICE\nTable:11\n8:14PM\nB111 No:5726\nDate:09-06-2026\nSteward:Kiran\nAmount\nQty\nItem\n240.00\n50.00\nVeg Biryani\n60.00\nTandoor1 Roti\nButter Roti\n350.00\n8.75\nSub Total\n8.75\nCGST@2.5%\n+0.50\nSGST@2.5%\nRound Off\n368.00\nRS\nGRAND\nTOTAL\nPay Mode:UPI\nItems:3\nforclaim\nThank you, visit again!"
+}

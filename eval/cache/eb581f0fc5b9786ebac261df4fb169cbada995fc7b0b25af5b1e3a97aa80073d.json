@@ -1,0 +1,28 @@
+{
+  "vendor": "Vidarbha Express Courier",
+  "receipt_date": "2026-06-22",
+  "receipt_number": "VX11449697",
+  "gstin": "27OUUFX7743H2ZR",
+  "total_amount": 448.4,
+  "subtotal": null,
+  "tax": 288.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "VIDARBHA EXPRESS COURIER\nItwari,Nagpur\nGSTIN:270UUFX7743H2ZR\nBOOKING RECEIPT\nAWBNo:VX11449697\nDate\n\uff1a22/06/202613:30\norigin\nNAGPUR\nDest\nNASHIK\nPCS:1\nwt:2.500kg\nMode\nSURFACE\nCons1gnee:Dr.A.Kulkarnt\nFreight\n380.00\n68.40\nGST18%\nTOTAL RS\n448.40\nTrack:www.track-shipment.in\nNot responsible for prohibited ftems"
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "Annapurna Dining Hall",
+  "receipt_date": "2026-07-08",
+  "receipt_number": "A15e3",
+  "gstin": "27612FLI893022K",
+  "total_amount": 242.0,
+  "subtotal": 6.0,
+  "tax": 2.5,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 0.3,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (6.0) + tax (2.5) = 8.50 != total (242.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (6.0) + tax (2.5) = 8.50 != total (242.0)"
+  ],
+  "raw_text": "ANNAPURNA DININGHALL\nBajay Chouk,ardha\n\u7535\u70ed\uff1a0712-2352535\nGS7IN:27612FLI893022K\nTAX INVOICE\nBill No:A15e3\nDate: 88.87.2826\nSteward: Raju\nTable:1e\n9:17 PN\nItem\nQty\nButter Roti\nAmount\nHix Veg\n38.68\n280.68\nSub Total\nC6ST02.58\nSGST@2.5%\n230.68\nRound oft\n5.75\n5.75\n+0.58\nGRAND\nTOTAL\nRs\n242.00\nItens:2\nPay Mode:Cash\nThank you, visit again!"
+}

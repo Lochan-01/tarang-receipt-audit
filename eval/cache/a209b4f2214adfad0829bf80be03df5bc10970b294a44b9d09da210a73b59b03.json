@@ -1,0 +1,27 @@
+{
+  "vendor": "Shree Ganesh Tours & Travels",
+  "receipt_date": "2026-06-11",
+  "receipt_number": "3653",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": "MH34 AT 9665",
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SHREEGANESHTOURS&TRAVELS\nGaneshpeth,Nagpur/Mob:9822041763\n11/06/26\nDate:\nNo.3653\nAmol-Tarang\nRumptee\nName:\nNugpur\nTo:\n29\nFrom:\nKm:\nMH34AT9665\nVehicle No:\n500/-\nAmountRs.\nRupees (in words):Five Htundred owly\npaid\nDriver's Signature"
+}

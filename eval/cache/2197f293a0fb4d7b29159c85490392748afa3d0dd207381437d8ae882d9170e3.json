@@ -1,0 +1,29 @@
+{
+  "vendor": "Shirdi Sai Palace Lodge",
+  "receipt_date": "2026-07-05",
+  "receipt_number": "SPL/26-2712343",
+  "gstin": "27GFZCR8659B2Z4",
+  "total_amount": 336.0,
+  "subtotal": 5.6,
+  "tax": 7184.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.6,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (5.6) + tax (7184.0) = 7189.60 != total (336.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (5.6) + tax (7184.0) = 7189.60 != total (336.0)"
+  ],
+  "raw_text": "SAIPALACELODGE\nCivil Lines.Wardha/Ph:07172-2226008|GSTIN:27GFZCR8659B2Z4\nInvoiceNo:SPL/26-2712343\nGuestMrJMs.SagarIngole\nTAXINVOICE\nCheck-in:03.07.202613:30\ninvoiceDate:05.07.2026\nRoomNo:321\nCompany.TarangPharmaDistribution\nS.NoD\nDescription\nCheck-out:05.07.202610:15\nRoom Type:DeluxeAC\nRoom Tariff\nSAC\nNights\n996311\nRate\nAmount\n2.800.00\nTaxableValue\n5.600.00\nCGSTG6%\nAmount in words:Rupees Six Thousand Tiwo Hundred Seventy Two Only\n5.600.00\nSGST@6%\n336.00\nPaymentMode:UPI\nTotal (INR)\n336.00\n6.272.00\nGuestSignature\nFor Sai Palace Lodge\nAuthorised Signatony"
+}

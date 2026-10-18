@@ -1,0 +1,29 @@
+{
+  "vendor": "Laxmi Auto Fuels",
+  "receipt_date": "2026-06-25",
+  "receipt_number": "004023",
+  "gstin": "27DPAFU4120X1ZM",
+  "total_amount": 558.0,
+  "subtotal": null,
+  "tax": 27.0,
+  "rate": 104.69,
+  "volume": 558.0,
+  "vehicle_no": "MH32 AY 2051",
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.3
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Fuel math mismatch: 104.69 * 558.0 = 58417.02 != total (558.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Fuel math mismatch: 104.69 * 558.0 = 58417.02 != total (558.0)"
+  ],
+  "raw_text": "BPCL\nLAXMI AUTO FUELS\nArvi Naka, Wardha\nGSTIN:27DPAFU4120X1ZM\nReceipt No:004023\nDate:25/06/26\nTime:18:27\nPump:5\nNozzle:2\nProduct\n\uff1aPETROL\nRate (Rs/L):104.69\nVolume\uff08L\uff09\uff1a5.33\nAmount(Rs):558.00\nVehicle No : MH32AY2051\nMode\n:Card\n558.00\nTOTAL\nRS.\nThank You! Visit Again\nSave Fuel,Save Money"
+}

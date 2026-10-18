@@ -1,0 +1,27 @@
+{
+  "vendor": "Highway King Dhaba",
+  "receipt_date": "2026-06-09",
+  "receipt_number": "",
+  "gstin": "",
+  "total_amount": 230.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.2,
+    "gstin": 1.0,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "HIGHWAY KINGDHARA\nPeVeg&NngFani\nBi No\n1250\nPaulars\nDan\nILassi\nIRice\n1Fogourry\nTotal Rs.\n230\nThankYo"
+}

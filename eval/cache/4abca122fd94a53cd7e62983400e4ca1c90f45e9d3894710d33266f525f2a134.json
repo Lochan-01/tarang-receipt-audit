@@ -1,0 +1,27 @@
+{
+  "vendor": "Prompt Parcel Services",
+  "receipt_date": "2026-07-15",
+  "receipt_number": "",
+  "gstin": "27IRWFN4293M2Z1",
+  "total_amount": 448.0,
+  "subtotal": null,
+  "tax": 45.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "PROMPTPARCELSERVICES\nRajkamal Chowk,Amravati\nGSTIN\uff1a27IRWFN4293M2Z1\nBOOKING RECEIPT\nAWB N\n\uff1aPP37248102\nDate\nOrigin\n2026-07-1511:53\nDest\nNAGPUR\nPcs:1\nAURANGABAD\nMode\nWt:2.000 kg\n:AIR\nConsignee:Dr.S.Rao\nFreight\nGST@18%\nTOTAL RS\n448.00\n80.64\nTrack:www.track-shipment.in\n528.64\nNot responsible for prohibited items"
+}

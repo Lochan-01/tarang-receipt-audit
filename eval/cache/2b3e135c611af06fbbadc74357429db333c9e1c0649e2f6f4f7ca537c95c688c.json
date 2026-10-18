@@ -1,0 +1,27 @@
+{
+  "vendor": "Speedlink Couriers",
+  "receipt_date": "2026-06-18",
+  "receipt_number": "SL31253353",
+  "gstin": "27HJXCW9975D1ZJ",
+  "total_amount": 226.56,
+  "subtotal": null,
+  "tax": 45.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.92,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SPEEDLINKCOURIERS\nGandhibagh,Nagpur\nGSTIN:27HJXCW9975D1ZJ\nBOOKING RECEIPT\nAWBNo:SL31253353\nDate\n:18-06-202619:03\nOr1gin\nNAGPUR\nDest\n\uff1aHYDERABAD\nPcs:1\nWt:@.500kg\nMode\n: AIR\nConsignee:C&F Agent Raipur\nFreight\n192.00\nGST@18%\n34.56\nTOTAL RS\n226.56\n+shipment.in"
+}

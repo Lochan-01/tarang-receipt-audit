@@ -1,0 +1,29 @@
+{
+  "vendor": "Ashirwad Veg Restaurant",
+  "receipt_date": "2026-06-20",
+  "receipt_number": "",
+  "gstin": "270ILF01994Z2ZV",
+  "total_amount": 5921.0,
+  "subtotal": null,
+  "tax": 272.5,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.6,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.3,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Format does not match standard Indian GSTIN syntax"
+  ],
+  "raw_text": "Table:20\n12:39PM\nAmount\n280.00\n70.00\n260.00\n240.00\n850.00\n21.25\n21.25\n-0.50\n892.00\nASHIRWADVEGRESTAURANT\nGSTIN:270ILF01994Z2ZV\nPay Mode: UPI\nThank you, visit again!\nRamdaspeth,Nagpur\nPh:0712-2443745\nTAX INVOICE\nItems:\n20.06.2026\nGRAND TOTAL\nKiran\nSoda\n5921\nButter\nPaneer\nBiryani\nLime\nSGST@2.5%\n@2.5%\nSub Total\nRound off\nON\nSteward:\nPaneer\nDate:\nSaoji\nFresh\nB111\nCGST\nVeg"
+}

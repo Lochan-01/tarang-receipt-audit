@@ -1,0 +1,27 @@
+{
+  "vendor": "Shree Sai Petroleum",
+  "receipt_date": "2026-08-04",
+  "receipt_number": "007993",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": 104.64,
+  "volume": null,
+  "vehicle_no": "MH40 CK 3356",
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.9,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "100.00\nSHREE SAI PETROLEUM\nWardha Road,Khamla,Nagpur\nThankZopaXisit Again\nTime:09:45\nSave Fuel, Save Money\nIndianOil\nMH40CK3356\nNozzle:\n007993\nPETROL\nRate(Rs/L):104.64\n100.00\n0.96\n04-08-2026\nCard\nRs.\nReceipt No :\n:(1)\n(Rs):\nVehicle No\nProduct\nVolume\nAmount\nDate:\n:dund\nMode"
+}

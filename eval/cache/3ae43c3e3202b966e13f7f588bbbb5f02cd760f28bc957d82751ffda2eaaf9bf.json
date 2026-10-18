@@ -1,0 +1,27 @@
+{
+  "vendor": "Multilevel Sitabuldi Parking",
+  "receipt_date": "2026-06-09",
+  "receipt_number": "107539",
+  "gstin": "",
+  "total_amount": 30.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": 2.0,
+  "volume": null,
+  "vehicle_no": "MH31 FG 6627",
+  "confidences": {
+    "vendor": 0.5,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.65
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SITABULDIMULTILEVELPARKING\nNagpur Municipal Corporation\nTicketNo:107539\nVeh No:\nType\nMH31FG6627\n2W(Day rate)\nIn\n09/06/26 10:14\nOut\n09/06/2614:41\nAmount\nRS\nOK\n30.00\nVehicleparked at owner's risk"
+}

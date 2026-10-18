@@ -1,0 +1,29 @@
+{
+  "vendor": "Hotel Saibaba Bhojnalaya",
+  "receipt_date": "2026-06-30",
+  "receipt_number": "6416",
+  "gstin": "27MTSPF4455T1ZB",
+  "total_amount": 640.0,
+  "subtotal": 15.25,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (15.25) + tax (32.0) = 47.25 != total (640.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (15.25) + tax (32.0) = 47.25 != total (640.0)"
+  ],
+  "raw_text": "HOTEL SAIBABA BHOJNALAYA\nMain Road,Yavatmal\nPh:6712-2301271\nGSTIN:27MTSPF4455T1ZB\nTAX INVOICE\nTable:10\n2:16PM\nBillNo:6416\nDate:30/06/2026\nSteward:Vijay\nAmount\nQty\nItem\n280.00\n150.00\nSaoji Paneer\nJeera Rice\n180.00\nDal Tadka\n610.00\nSub Total\n15.25\nCGST @2.5%\n15.25\nSGST @2.5%\n-0.50\nRound Off\n640.00\nGRAND TOTAL\nRS\n--hunch w/Dr.Ghandak\nPay Mode:UPI\nThank you,visit again!"
+}

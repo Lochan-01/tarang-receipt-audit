@@ -1,0 +1,29 @@
+{
+  "vendor": "Gajanan Petroleum",
+  "receipt_date": "2026-06-09",
+  "receipt_number": "008255",
+  "gstin": "",
+  "total_amount": 200.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": 104.44,
+  "volume": 200.0,
+  "vehicle_no": "MH34 CA 5530",
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.3
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Fuel math mismatch: 104.44 * 200.0 = 20888.00 != total (200.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Fuel math mismatch: 104.44 * 200.0 = 20888.00 != total (200.0)"
+  ],
+  "raw_text": "IndianOil\nGAJANAN PETROLEUM\nNagpur Road,Chandrapur\nReceipt No :008255\nTime:0838\nDate:09.06.2026\nPump:5\nNozzle:1\nProduct\n\uff1aPETROL\nRate (Rs/L):104.44\nVolume(L)\uff1a1.91\nAmount (Rs):200.00\nVehicle No :MH34CA5530\nMode\n:UPI\nRs.\nTOTAL\n200.00\nThank You! Visitygiry\nSave Fuel,Save Money"
+}

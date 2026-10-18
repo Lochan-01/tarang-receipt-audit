@@ -1,0 +1,29 @@
+{
+  "vendor": "Express Vidarbha Courier",
+  "receipt_date": "2026-07-15",
+  "receipt_number": "VX81712845",
+  "gstin": "270UUFX7743H2ZR",
+  "total_amount": 330.4,
+  "subtotal": null,
+  "tax": 288.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.5,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.3,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Format does not match standard Indian GSTIN syntax"
+  ],
+  "raw_text": "VIDARBHAEXPRESSCOURIER\nItwari.Nagpur\nGSTIN:270UUFX7743H2ZR\nBOOKING RECEIPT\nAWBNo:VX81712845\nDate\n15/07/2026 21:16\nOrigin\uff1a\nNAGPUR\nDest\nAURANGABAD\nPcs:1\nwt:1.5eekg\nMode\n\uff1aSURFACE\nConsignee:Tarang Pharma -Pune Depot\nFreight\n280.00\nGST018%\n50.40\nTOTAL RS\n330.40\nTrack:www.track-shippenin\nNot responsible for prohibited Ttems"
+}

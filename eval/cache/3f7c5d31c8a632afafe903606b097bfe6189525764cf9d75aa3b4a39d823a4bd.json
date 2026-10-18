@@ -1,0 +1,27 @@
+{
+  "vendor": "Maa Durga Cab Service",
+  "receipt_date": "2026-06-12",
+  "receipt_number": "8210",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": "MH31 CP 9571",
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "MAADURGACABSERVICE\nNearBusStand,Chandrapur1Mob:9422108812\nNo.8210\nSagar-Tarang\nDate:12-6-2026\nName:\nFrom:Naabur Airporffo:Sitabuldi\nVehicleNo:MH31Cp9571\nKm:23\nAmountRs.\n390/-\nRupees(inwords):\nThree Hundred Ninetu only\npaid\nDriver's Signature"
+}

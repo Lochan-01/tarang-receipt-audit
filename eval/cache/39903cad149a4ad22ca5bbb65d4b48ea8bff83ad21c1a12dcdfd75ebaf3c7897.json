@@ -1,0 +1,29 @@
+{
+  "vendor": "Unknown Vendor",
+  "receipt_date": "",
+  "receipt_number": "",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.0,
+    "receipt_date": 0.0,
+    "receipt_number": 0.0,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "OCR detected zero text lines (image appears black, blank, or heavily blurred)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Date missing or empty"
+  ],
+  "raw_text": null
+}

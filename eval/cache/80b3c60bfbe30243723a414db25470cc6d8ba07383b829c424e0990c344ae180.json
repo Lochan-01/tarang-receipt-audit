@@ -1,0 +1,27 @@
+{
+  "vendor": "Hotel Saibaba Bhojnalaya",
+  "receipt_date": "2026-07-07",
+  "receipt_number": "6500",
+  "gstin": "27MTSPF4455T1ZB",
+  "total_amount": 682.0,
+  "subtotal": 650.0,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "HOTELSAIBABA BHOJNALAYA\nMain Road, Yavatmal\nPh:0712-2301271\nGSTIN:27MTSPF4455T1ZB\nTAX INVOICE\nB11lNo:6500\nTable:9\nDate:07/0712026\n2:56PM\nSteward:Raju\nItem\nQty\nAmount\nChaas\n40.00\nSaoji Paneer\n280.00\nJeera Rice\n150.00\nDal Tadka\n180.00\nSub Total\n650.00\nCGST@2.5%\n16.25\nSGST@2.5%\nRound Off\n16.25\n-0.50\nGRAND\nTOTAL\nRS\n682.00\n2paxems:4\nPay Mode:UPI\nThank you, visit again!"
+}

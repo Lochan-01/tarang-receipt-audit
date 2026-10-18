@@ -1,0 +1,27 @@
+{
+  "vendor": "New Highway Service Station",
+  "receipt_date": "2026-06-13",
+  "receipt_number": "1268",
+  "gstin": "",
+  "total_amount": 190.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.6,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "HIGHWAYKINGDHABA\nNagpurRoad,Wardha\nPureVeg&Non-Veg'Famity Section\nBil No.1268\nParticulars\nDate_13-6-2026\nAmount\nISamosa\n20\nILassi\nIDal Fry\n50\n120\nTotal Rs.\n190\nThankYou-VisitAgain"
+}

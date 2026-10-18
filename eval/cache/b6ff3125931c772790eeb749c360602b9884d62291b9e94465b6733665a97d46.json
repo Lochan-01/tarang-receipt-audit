@@ -1,0 +1,27 @@
+{
+  "vendor": "Sai Ram Tea & Snacks",
+  "receipt_date": "2026-07-21",
+  "receipt_number": "6946",
+  "gstin": "",
+  "total_amount": 100.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.9,
+    "gstin": 1.0,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SAIRAMTEA&SNACKS\nBusStand,Yavatmal\nPure Veg &Non-VegFamily Section\nDate\n21/07/26\nBill No.\n6946\nParticulars\nAmount\n1Samosa\n20\n2Chai\n30\n1Lassi\n50\n100\nTotal Rs.\nThankYou-VisitAgain"
+}

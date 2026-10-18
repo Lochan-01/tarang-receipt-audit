@@ -1,0 +1,27 @@
+{
+  "vendor": "Speedlink Couriers",
+  "receipt_date": "2026-06-23",
+  "receipt_number": "SL36715972",
+  "gstin": "27HJXCW9975D1ZJ",
+  "total_amount": 330.4,
+  "subtotal": null,
+  "tax": 45.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SPEEDLINKCOURIERS\nGandhibagh,Nagpur\nGSTIN:27HJXCW9975D1ZJ\nBOOKING RECEIPT\nAWBNo:SL36715972\nDate\n\uff1a23-06-202621:17\nOrigin\nNAGPUR\nDest\nBHOPAL\nwt:2.000kg\nPCs:\nMode\n:SURFACE\nConsignee:Tarang Pharma -Pune Depot\n280.00\n50.40\nFreight\nGST@18%\n330.40\nTOTAL RS\nTrack:www.track-shipment.in\nNot responstble for prohibited items"
+}

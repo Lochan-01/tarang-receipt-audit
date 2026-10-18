@@ -1,0 +1,27 @@
+{
+  "vendor": "Shree Ganesh Tours & Travels",
+  "receipt_date": "2026-07-03",
+  "receipt_number": "3799",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": "MH21 AT 4654",
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SHREE GANESH TOURS &TRAVELS\nGanoshpoth,Nagpur1Mob:9822041763\nNo.3799\nHarshal-Tarang\nDate:3/7/2026\nName:\nWardha\nFrom:\nTo:\nSewagram\nVehicleNo:MH21AT4654\nKm:\n80\n12807-\nAmountRs.\nRupees (inwords):\n2pax\nDrliver's Signature"
+}

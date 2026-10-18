@@ -1,0 +1,29 @@
+{
+  "vendor": "Shree Sai Petroleum",
+  "receipt_date": "2026-07-21",
+  "receipt_number": "807635",
+  "gstin": "",
+  "total_amount": 300.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": 10.64,
+  "volume": 2.87,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.6,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.3
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Fuel math mismatch: 10.64 * 2.87 = 30.54 != total (300.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Fuel math mismatch: 10.64 * 2.87 = 30.54 != total (300.0)"
+  ],
+  "raw_text": "IndianOil\nSHRES SAIPETROLSUN\nMaroha RndManla,Nacou\nReceipt No:807635\nDate:21-87-2026\nTime:18:e4\nPwnp:S\nNzzle:4\nProduct\nPETAL\nRate (Rsnt):10.64\nVolume(L)\n2.87\nAnount(Rs):\n380.08\nVehicle No\nNN31FA2290\nMode\nRS.\nTOTAL\n300.00\nSave Fwel, Save"
+}

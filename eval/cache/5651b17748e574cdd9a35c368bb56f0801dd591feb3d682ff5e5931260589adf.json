@@ -1,0 +1,28 @@
+{
+  "vendor": "Hotel Pradeep Pure Veg",
+  "receipt_date": "2026-06-24",
+  "receipt_number": "1203",
+  "gstin": "27ODUFJ1789K3ZU",
+  "total_amount": 861.0,
+  "subtotal": null,
+  "tax": 275.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.85,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "HOTELPRADEEPPUREVEG\nDhantoli,Nagpur\nPh:0712-2682988\nGSTIN:270DUFJ1789K3ZU\nTAX INVOICE\nBillNo:1203\nTable: 12\nDate:24/06/2026\nSteward:Manoj\n12:18PM\nItem\nQty\nAmount\nTea\nVeg Biryant\n100.00\nKaju Curry\n240.00\nDal Tadka\n300.00\n180.00\nSub Total\nCGST @2.5%\n820.00\nSGST@2.5%\n20.50\nRound off\n20.50\n+0.00\nGRAND\nTOTAL\nRS\n861.00\nItems:4\nPay Mode:UPI\nThank you, visit again!"
+}

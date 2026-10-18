@@ -1,0 +1,29 @@
+{
+  "vendor": "Green Leaf Restaurant",
+  "receipt_date": "2026-06-25",
+  "receipt_number": "A/6248",
+  "gstin": "27YUFFZ9311K2ZV",
+  "total_amount": 840.0,
+  "subtotal": 20.0,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (20.0) + tax (32.0) = 52.00 != total (840.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (20.0) + tax (32.0) = 52.00 != total (840.0)"
+  ],
+  "raw_text": "GREENLEAF RESTAURANT\nKasturba Chowk, Chandrapur\nPh:0712-2749720\nGSTIN:27YUFFZ9311K2ZV\nTAX INVOICE\nTable:18\nBill No:A/6248\n12:16PM\nDate:25-Jun-26\nSteward:Manoj\nQty\nAmount\nItem\n220.00\nVeg Thali\n200.00\nMix Veg\n100.00\n280.00\nTea\nSaoji Paneer\n800.00\n20.00\nSub Total\n20.00\nCGST @2.5%\n+0.00\nSGST @2.5%\nRound Off\n840.00\nRS\nTOTAL\nGRAND\nPay Mode:Cash\nItems:4\nThank you, visit again!"
+}

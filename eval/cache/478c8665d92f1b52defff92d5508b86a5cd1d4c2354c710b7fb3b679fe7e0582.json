@@ -1,0 +1,29 @@
+{
+  "vendor": "Hotel Saibaba Bhojnalaya",
+  "receipt_date": "2026-06-14",
+  "receipt_number": "",
+  "gstin": "27MTSPF4455T1ZB",
+  "total_amount": 614.0,
+  "subtotal": -0.25,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (-0.25) + tax (32.0) = 31.75 != total (614.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (-0.25) + tax (32.0) = 31.75 != total (614.0)"
+  ],
+  "raw_text": "HOTEL SAIBABABHOJNALAYA\nMain Road,Yavatmal\nPh:0712-2301271\nGSTIN:27MTSPF4455T1ZB\nTAX INVOICE\nTable:12\n1:47PM\nB111No:6158\nDate:14/06/2026\nAmount\nSteward:Ramesh\nQty\n110.00\nItem\n240.00\n25.00\nSandwich\n210.00\nVeg Biryani\nTandoori Roti\n585.00\nVeg Manchurian\n14.62\n14.62\nSub Total\n-0.25\nCGST@2.5%\nSGST@2.5%\nRound Off\n614.00\nRS\nTOTAL\nGRAND\nPayye\nItems:4\nThank you, visit again!"
+}

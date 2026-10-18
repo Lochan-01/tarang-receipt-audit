@@ -1,0 +1,27 @@
+{
+  "vendor": "Royal Travels",
+  "receipt_date": "2026-06-19",
+  "receipt_number": "",
+  "gstin": "",
+  "total_amount": 1260.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 1.0,
+    "total_amount": 0.65
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "ROYALTRAVELS\nStahonRoed,Warda1Mcb.g970055214\n19-6-2026\nDate.\n8360\nTushar-Tarawg\nName.\nTo.AIMSMLhaw\nGaweshpetn\nFrom:\nVehicle No.\n1260/-\nAmount Rs.\nRupees (inwords)\nDriver's Signature"
+}

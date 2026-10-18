@@ -1,0 +1,29 @@
+{
+  "vendor": "Om Sai Fuel Point",
+  "receipt_date": "2026-07-30",
+  "receipt_number": "004471",
+  "gstin": "",
+  "total_amount": 300.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": 104.59,
+  "volume": 300.0,
+  "vehicle_no": "MH49 BZ 7713",
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.3
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Fuel math mismatch: 104.59 * 300.0 = 31377.00 != total (300.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Fuel math mismatch: 104.59 * 300.0 = 31377.00 != total (300.0)"
+  ],
+  "raw_text": "HPCL\nOM SAI FUEL POINT\nAmravati Road,Wadi,Nagpur\nReceipt No :004471\nDate:30/07/26\n5Time:20:47\nPump:1\nNozzle:1\nProduct\n:PETROL\nRate (Rs/L):104.59\nVolume (L):2.87\nAmount (Rs):300.00\nVehicle No:MH49BZ7713\nMode\n:Card\nTOTAL\nRS.\n300.00\nSave Fuel, Save Money"
+}

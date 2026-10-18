@@ -1,0 +1,27 @@
+{
+  "vendor": "Hotel Saibaba Bhojnalaya",
+  "receipt_date": "2026-08-03",
+  "receipt_number": "6663",
+  "gstin": "27MTSPF4455T1ZB",
+  "total_amount": 1092.0,
+  "subtotal": null,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "HOTEL SAIBABABHOJNALAYA\nMain Road,Yavatmal\nPh:0712-2301271\nGSTIN:27MTSPF4455T1ZB\nTAX INVOICE\nB11lNo:6663\nDate:03/08/2026\nTable:2\nSteward:Manoj\n9:07PM\nIten\nQty\nAmount\nCold Coffee\nKaju Curry\n480.00\nPaneer Butter Masala\n300.00\n260.00\nSub Total\nCGST @2.5%\n1040.00\nSGST @2.5%\nRound Off\n26.00\n26.00\n+0.00\nGRAND\nTOTAL\n1092.00\nPay Mode:Cash"
+}

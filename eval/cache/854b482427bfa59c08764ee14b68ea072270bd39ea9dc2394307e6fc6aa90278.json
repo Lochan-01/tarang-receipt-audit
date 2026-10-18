@@ -1,0 +1,30 @@
+{
+  "vendor": "Hotel Pradeep Pure Veg",
+  "receipt_date": "2026-07-27",
+  "receipt_number": "",
+  "gstin": "27ODUFJ1789K3ZU",
+  "total_amount": 0.0,
+  "subtotal": 19.25,
+  "tax": 275.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (19.25) + tax (275.0) = 294.25 != total (0.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (19.25) + tax (275.0) = 294.25 != total (0.0)"
+  ],
+  "raw_text": "HOTELPRADEEPPUREVEG\nDhantoli,Nagpur\nPh:0712-2682988\nGSTIN:270DUFJ1789K3ZU\nTAX INVOICE\nB111No:1630\nTable:16\nDate:27/07/2026\n8:38PM\nSteward:Sunil\nQty\nItem\nAmount\n220.00\nSandwich\n280.00\nSaoji Paneer\n200.00\nMix Veg\n70.00\nFresh Lime Soda\n770.00\nSub Total\n19.25\nCGST @2.5%\n19.25\n-0.50\nSGST@2.5%\nRoundoff\n808.00\nRS\nGRAND\nTOTAL\nvisitagain!"
+}

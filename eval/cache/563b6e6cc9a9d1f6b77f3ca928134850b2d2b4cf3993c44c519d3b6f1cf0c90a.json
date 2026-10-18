@@ -1,0 +1,28 @@
+{
+  "vendor": "Prompt Parcel Services",
+  "receipt_date": "2026-06-23",
+  "receipt_number": "",
+  "gstin": "27IRWFN4293M2Z1",
+  "total_amount": 80.64,
+  "subtotal": null,
+  "tax": 289.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "PROMPTPARCELSERVICES\nRajkamal Chowk,Amravati\nGSTIN:271RWFN4293M2Z1\nBOOKING RECEIPT\nAWB No\n\uff1aPP26468741\nDate\n2026-06-2308:09\nOr1gin\nNAGPUR\nDest\nAURANGABAD\nPcs:1\nWt:2.000kg\nMode\n: AIR\nCons1gnee:Tarang Pharma HO Mumba1\nFreight\nGST@18%\n448.00\nTOTAL RS\n80.64\n528.64\nTrack:www.track-shipment,in\nNot responsible for prohibited items"
+}

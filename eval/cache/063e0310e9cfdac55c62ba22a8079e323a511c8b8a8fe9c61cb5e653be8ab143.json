@@ -1,0 +1,31 @@
+{
+  "vendor": "Ashirwad Veg Restaurant",
+  "receipt_date": "2026-08-04",
+  "receipt_number": "",
+  "gstin": "270ILFO1994Z2ZV",
+  "total_amount": 3.0,
+  "subtotal": 13.5,
+  "tax": 275.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.3,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (13.5) + tax (275.0) = 288.50 != total (3.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (13.5) + tax (275.0) = 288.50 != total (3.0)"
+  ],
+  "raw_text": "ASHIRWAD VEG RESTAURANT\nRamdaspeth,Nagpur\nPh:0712-2443745\nGSTIN:270ILFO1994Z2ZV\nTAX INVOICE\nTable:3\n8:48PM\nB111 No: 6581\nDate:04.08.2026\nSteward:V1jay\nAmount\nQty\nItem\n400.00\n80.00\nMix Veg\n60.00\nGulab Jamun\nMasala Papad\n540.00\n13.50\nSub Total\n13.50\nCGST 02.5%\n+0.00\nSGST @2.5%\nRound Oft\n567.00\nTOTAL\nGRAND\nPay Modet Card\nItemsi3\nThank you, visit again!"
+}

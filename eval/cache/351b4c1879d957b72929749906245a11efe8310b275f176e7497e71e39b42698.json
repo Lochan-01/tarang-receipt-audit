@@ -1,0 +1,27 @@
+{
+  "vendor": "New Highway Service Station",
+  "receipt_date": "2026-07-27",
+  "receipt_number": "002436",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": "MH27 DE 7781",
+  "confidences": {
+    "vendor": 0.6,
+    "receipt_date": 0.6,
+    "receipt_number": 0.9,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "500.00\nVisit Again\n11:47\nSave Money\nHPCL\nTime:\nMH27DE7781\n002436\n104.23\nFuel,\nPETROL\n500.00\n2026-07-27\n4.80\nUPI\nThank\nBadneraRoad,Amravat1\nRS\n(RS/L):\nON\n(RS):\n(1)\nON\nNEW HIGHWAY SERVICE STATION\nProduct\nVehicle\nRecei\nVolume\nAmount\nDate:\n:dund\nRate"
+}

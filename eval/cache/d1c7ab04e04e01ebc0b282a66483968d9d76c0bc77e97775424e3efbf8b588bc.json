@@ -1,0 +1,30 @@
+{
+  "vendor": "Annapurna Dining Hall",
+  "receipt_date": "2026-07-16",
+  "receipt_number": "",
+  "gstin": "27GIZFL1093Q2ZK",
+  "total_amount": 567.0,
+  "subtotal": 13.5,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: GSTIN checksum mismatch (expected 'C', found 'K')",
+    "Tax arithmetic mismatch: subtotal (13.5) + tax (32.0) = 45.50 != total (567.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (13.5) + tax (32.0) = 45.50 != total (567.0)"
+  ],
+  "raw_text": "ANNAPURNA DINING HALL\nBajaj Chowk,Wardha\nPh:6712-2352535\nGSTIN:27GIZFL1893Q2ZK\nTAX INVOICE\nTable:24\nB1ll No:A/1608\n1:35PM\nDate:16.07.2026\nSteward:Ramesh\nQty\nAmount\nItem\n160.00\nGulab Jamun\n140.00\nFresh Lime Soda\n240.00\nVeg Biryani\n540.00\nSub Total\n13.50\nCGST@2.5%\n13.50\nSGST@2.5%\n+0.00\nRound Off\n567.00\nTOTAL\nRS\nGRAND\nPay Mode:Cash\nItems:3\nThank you, visit again!"
+}

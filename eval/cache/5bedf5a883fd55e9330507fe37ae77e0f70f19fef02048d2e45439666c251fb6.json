@@ -1,0 +1,27 @@
+{
+  "vendor": "Om Sai Fuel Point",
+  "receipt_date": "2026-06-18",
+  "receipt_number": "002234",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": "MH40 CK 3356",
+  "confidences": {
+    "vendor": 0.6,
+    "receipt_date": 0.95,
+    "receipt_number": 0.9,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "200.00\nAgain\nWad1,Nagpur\nFUEL POINT\nMoney\nVisit\n15:56\nHPCL\nMH40CK3356\nRoad,\nSave Fuel,\nTime:\nThankpaid\nSAIE\n104.59\n002234\nPETROL\n200.00\n1.91\nAmravati\nCash\n18/06/26\nRS\n(1/S)\n(RS)\nON\n(1)\nON\nReceipt\nVehicle\nTOTAL\nProduct\nVolume\nAmount\nPump\nRate\nDate\nMode"
+}

@@ -5,7 +5,7 @@ def parse_indian_amount(raw_val: Any) -> Optional[float]:
     """
     Parses amount string in Indian numbering / currency format:
     e.g. 'Rs. 2,400', '3,539.00', '₹ 1,120.00', '330'
-    Returns float value, or None if unparseable.
+    Returns float value, or None if unparseable or non-monetary (e.g. pax, %, items).
     """
     if raw_val is None:
         return None
@@ -13,6 +13,13 @@ def parse_indian_amount(raw_val: Any) -> Optional[float]:
         return float(raw_val)
     
     s = str(raw_val).strip()
+    
+    # Reject non-currency quantities: e.g. '2pax', 'Items: 3', 'CGST @ 2.5%', '2.500kg'
+    if re.search(r'(?i)(pax|pcs|items?|qty|table|kg|gm|hrs?|mins?|nozzle|pump)\b', s):
+        return None
+    if '%' in s or '@' in s:
+        return None
+
     # Remove currency symbols and word tokens
     s = re.sub(r'(?i)(rs\.?|inr|₹|\/-\b|\bpkr\b)', '', s).strip()
     # Remove commas

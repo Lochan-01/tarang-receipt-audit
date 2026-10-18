@@ -1,0 +1,27 @@
+{
+  "vendor": "Royal Travels",
+  "receipt_date": "2026-07-30",
+  "receipt_number": "8506",
+  "gstin": "",
+  "total_amount": 3807.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": "MH31 CP 4220",
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.65
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "ROYALTRAVELS\nStationRoad,WardhaMob:9970055214\nDate:_30-7-2026\nNo.8506\nShubham-Tarang\nName.\nNaobur AirportTo:\nSitabuldi\nFrom:\nVehicleNo:MH31Cp4220\nKm:\n29\n3807\nAmountRs.\nRupees (in words):Three LHundred Eightyonly\nDriver's Signature"
+}

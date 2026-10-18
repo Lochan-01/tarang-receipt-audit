@@ -1,0 +1,27 @@
+{
+  "vendor": "Shree Ganesh Tours & Travels",
+  "receipt_date": "2026-07-25",
+  "receipt_number": "3998",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": "MH32 CN 4920",
+  "confidences": {
+    "vendor": 0.85,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SHREEGANESHTOURS&TRAVELS\nGaneshpeth,Nagpur/Mob:9822041763\nNo.3998\nName:\nDate:\nHtarshal-Tarawg\n25/07/26\nFom:\nWardha\nTo:\nMH32CN4920\nHinganghat\nVehicle No:\nKm:\n43\nAmountRs\n6607-\nRupees (in words):\nSixHundred sixtyonly\nZpax\nDriver's Signature"
+}

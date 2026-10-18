@@ -1,0 +1,29 @@
+{
+  "vendor": "Speedlink Couriers",
+  "receipt_date": "2026-08-02",
+  "receipt_number": "",
+  "gstin": "27HJXCM9975012J",
+  "total_amount": 141.6,
+  "subtotal": null,
+  "tax": 18.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.2,
+    "gstin": 0.3,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Format does not match standard Indian GSTIN syntax"
+  ],
+  "raw_text": "SPEEDLINKCOURIERS\nG5TIN:27HJXCM9975012J\nBOOKING RECEIPT\nANB\nNo\nSL73161147\nDate\n82-88-2826 19:39\nOrigin\nNAGPUR\nDest\nINDORE\nPcs:1\nMt:@.588kg\nHode\nSURFACE\nConsignee:\nCaF Agent Raipur\nFreight\n128.68\nGST018%\n21.68\nTOTAL RS\n141.60\nTrack:woew.track-shipmemt.im\nMot respomsible for prohibited itens"
+}

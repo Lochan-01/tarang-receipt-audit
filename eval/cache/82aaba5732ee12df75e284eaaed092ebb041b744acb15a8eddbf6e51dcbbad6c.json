@@ -1,0 +1,27 @@
+{
+  "vendor": "Travels Royal",
+  "receipt_date": "2026-06-15",
+  "receipt_number": "8338",
+  "gstin": "",
+  "total_amount": 5107.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": "MH32 AT 8790",
+  "confidences": {
+    "vendor": 0.5,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.65
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "ROYALTRAVELS\nStationRoad,WardhaMob:9970055214\nNo. 8338\nName:\nKaluani-Tarang\nDate:15-6-2026\nFrom:\nGaneshpeth\nVehicleNo:MH32AT8790\nTo:AllMSMihan\nKm:\nAmountRs.\n5107-\nRupees (inwords):\nFiveHundred Ten onbp\nDriver's Signature"
+}

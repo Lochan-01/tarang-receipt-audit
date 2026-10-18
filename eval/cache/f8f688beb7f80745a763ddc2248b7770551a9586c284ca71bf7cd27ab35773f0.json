@@ -1,0 +1,29 @@
+{
+  "vendor": "Hotel Centre Point Inn",
+  "receipt_date": "2026-06-21",
+  "receipt_number": "HCP/26-27/4594",
+  "gstin": "27BOCPW1223G1Z2",
+  "total_amount": 336.0,
+  "subtotal": 5600.0,
+  "tax": 12.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (5600.0) + tax (12.0) = 5612.00 != total (336.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (5600.0) + tax (12.0) = 5612.00 != total (336.0)"
+  ],
+  "raw_text": "HOTELCENTREPOINTINN\nCampRoad,Amravati/Ph:07172-2873376/GSTIN:27BOCPW1223G1Z2\nInvoiceNo:HCP/26-27/4594\nTAXINVOICE\nGuest:Mr./Ms.PoojaMeshram\nCheck-in:19Jun 202613:30\nInvoiceDate:21Jun 2026\nRoomNo:123\nCompany:TarangPharmaDistribution\nS.No\nCheck-0ut:21Jun202610:15\nDescription\nRoom Type:StandardAC\nRoom Tariff\nSAC\nNights\n996311\nRate\nAmount\n2.800.00\nTaxableValue\n5,600.00\nCGST@6%\n5.600.00\nAmount in words:Rupees Six Thousand Two Hundred Seventy Two Only\nSGST @6%\n336.00\nPaymentMode:Cash\nTotal (INR)\n336.00\n6,272.00\nGuest Signature\nForHotel Centre Point Inn\nAuthorised Signatory"
+}

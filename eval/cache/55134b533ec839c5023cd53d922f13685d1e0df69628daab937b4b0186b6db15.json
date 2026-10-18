@@ -1,0 +1,27 @@
+{
+  "vendor": "Square Medicalpay & Park",
+  "receipt_date": "2026-07-02",
+  "receipt_number": "",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": "MH31 DX 0981",
+  "confidences": {
+    "vendor": 0.5,
+    "receipt_date": 0.6,
+    "receipt_number": 0.2,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "2pax\n20.00\nRS\nAmount\n02/07/2616:22\n02/07/2612:49\n:2W(Dayrate)\nType\nMH31DX0981\nVeh No\nNo:104727\nTicket\nMedical Square,Nagpur\nMEDICALSQUAREPAY&PARK"
+}

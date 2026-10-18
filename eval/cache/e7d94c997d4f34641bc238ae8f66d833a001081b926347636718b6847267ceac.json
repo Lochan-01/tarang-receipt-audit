@@ -1,0 +1,29 @@
+{
+  "vendor": "Shree Sai Petroleum",
+  "receipt_date": "2026-07-10",
+  "receipt_number": "087343",
+  "gstin": "",
+  "total_amount": 200.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": 164.64,
+  "volume": 1.91,
+  "vehicle_no": "MH31 FG 6627",
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.3
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Fuel math mismatch: 164.64 * 1.91 = 314.46 != total (200.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Fuel math mismatch: 164.64 * 1.91 = 314.46 != total (200.0)"
+  ],
+  "raw_text": "IndianOil\nSHREE SAI PETROLEUM\nWardha Road,Khala,Nagpur\nReceipt No:087343\nDate:16-07-2626\nPump:2\nTime:15:64\nNozzle:2\nProduct\nPETROL\nRate (Rs/L):164,.64\nVolume(L)\uff1a\n1.91\nAmount\n(RS):\n206.00\nVehicle No\nMode\nMH31FG6627\nCash\nTOTAL\nRS.\npied\n200.00\nYou! Visit Again\nSave Fuel,Save oney"
+}

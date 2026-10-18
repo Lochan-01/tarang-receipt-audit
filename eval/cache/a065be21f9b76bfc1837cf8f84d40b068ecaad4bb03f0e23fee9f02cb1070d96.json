@@ -1,0 +1,29 @@
+{
+  "vendor": "Cafe Coffee Corner",
+  "receipt_date": "2026-08-04",
+  "receipt_number": "",
+  "gstin": "27TABPX3765R2Z6",
+  "total_amount": 588.0,
+  "subtotal": 14.0,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (14.0) + tax (32.0) = 46.00 != total (588.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (14.0) + tax (32.0) = 46.00 != total (588.0)"
+  ],
+  "raw_text": "CAFECOFFEECORNER\nRajkamal Chowk,Amravati\nPh:0712-2323311\nGSTIN:27TABPX3765R2Z6\nTAX INVOICE\nTable:3\nB111No:A/1681\n2:40PM\nDate:04-08-2026\nSteward:Sunil\nQty\nAmount\nItem\n140.00\nFresh Lime Soda\n420.00\nVeg Manchurian\n560.00\nSub Total\n14.00\nCGST@2.5%\n14.00\nSGST@2.5%\n+0.00\nRound off\n588.00\nTOTAL\nRS\nGRAND\nPay Mode\nItems:2\nThank you,visit again!"
+}

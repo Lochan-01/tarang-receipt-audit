@@ -1,0 +1,27 @@
+{
+  "vendor": "Cafe Coffee Corner",
+  "receipt_date": "2026-06-21",
+  "receipt_number": "A/1406",
+  "gstin": "27TABPX3765R2Z6",
+  "total_amount": 987.0,
+  "subtotal": null,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "CAFE COFFEECORNER\nRajkamal Chowk,Amravati\nPh:e712-2323311\nGSTIN:27TABPX3765R2Z6\nTAX INVOICE\nB11lNo:A/1406\nDate:21-06-2026\nTable:10\nsteward: Kiran\n8:39PM\nItem\nQty\nAmount\nMineral Water\nVeg Bryan\n30.00\nGulab Jamun\n240.00\nJeera Rice\n80.00\nVeg Thall\n150.00\n440.00\nSub Total\nCGST02.5%\n940.00\nSGST@2.5%\n23.50\nRound Off\n23.50\n+0.00\nGRAND\nTOTAL\nRS\n987.00\nItems:5\nThank you,"
+}

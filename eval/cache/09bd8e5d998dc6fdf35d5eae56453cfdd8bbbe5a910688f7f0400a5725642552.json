@@ -1,0 +1,27 @@
+{
+  "vendor": "Om Sai Fuel Point",
+  "receipt_date": "2026-07-28",
+  "receipt_number": "884302",
+  "gstin": "",
+  "total_amount": 300.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": 2.87,
+  "volume": null,
+  "vehicle_no": "MH31 DX 8981",
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "HPCL\nOM SAI FUEL POINT\nAnrawati Road,Wadi.Nagpur\nReceipt No : 884302\nTime:14:38\nDate:28/e71/26\nNozle:3\nPunp:2\nPETROL\nProduct\n184.59\nRate(Rs/L):\n2.87\nVolune (L)\n388.68\nAnount(Rs):\nMH31DX8981\nVehicle No :\nUPI\nMode\n300.00\nRS.\nTOTAL\nThank You! Visiy\nSave Fuel, Save Mooey"
+}

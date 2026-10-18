@@ -1,0 +1,27 @@
+{
+  "vendor": "Gajanan Petroleum",
+  "receipt_date": "2026-07-28",
+  "receipt_number": "009395",
+  "gstin": "",
+  "total_amount": 300.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": 1.0,
+  "volume": 300.0,
+  "vehicle_no": "MH34 BT 9042",
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "IndianOil\nGAJANAN PETROLEUM\nNagpur Road,Chandrapur\nReceipt No :009395\nDate:28.07.2026\nTime:21:23\nPump:3\nNozzle:4\nProduct\n:PETROL\nRate (Rs/L):1e4.44\nVolume(L):2.87\nAmount(Rs):300.00\nVehicle No :MH34BT9042\nMode\n:Card\n300.00\nTOTAL\nRS.\nThank You! Visit Again\nSave Fuel, Save Money"
+}

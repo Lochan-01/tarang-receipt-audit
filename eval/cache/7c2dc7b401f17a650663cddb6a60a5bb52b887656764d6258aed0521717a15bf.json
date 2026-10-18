@@ -1,0 +1,29 @@
+{
+  "vendor": "Cafe Coffee Corner",
+  "receipt_date": "2026-07-31",
+  "receipt_number": "",
+  "gstin": "27TABPX3765R2Z6",
+  "total_amount": 546.0,
+  "subtotal": 13.0,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.85,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (13.0) + tax (32.0) = 45.00 != total (546.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (13.0) + tax (32.0) = 45.00 != total (546.0)"
+  ],
+  "raw_text": "CAFECOFFEECORNER\nRajkamal Chowk,Amravati\nPh:8712-2323311\nGSTIN:27TABPX3765R2Z6\nTAX INVOICE\nTable:13\nB111No:A/1574\n12:50PM\nDate:31-07-2026\nSteward:Raju\nQty\nAmount\nItem\n300.00\nKaju Curry\n220.00\nVeg Thal1\n520.00\nSub Total\n13.00\nCGST @2.5%\n13.00\nSGST@2.5%\n+0.00\nRound off\n546.00\nTOTAL\nRS\nGRAND\nPay Mode:UPI\nItems:2\nvisit again!\nThank you,"
+}

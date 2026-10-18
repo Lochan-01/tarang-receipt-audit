@@ -1,0 +1,27 @@
+{
+  "vendor": "Hotel Shubham Residency",
+  "receipt_date": "2026-07-15",
+  "receipt_number": "",
+  "gstin": "",
+  "total_amount": 2352.0,
+  "subtotal": 2100.0,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.2,
+    "gstin": 1.0,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "HOTELSHUBHAMRESIDENCY\nStationRoad,Chandrspur/Ph:07172-28325871GSTin:27UVOFW9408Y1Z\nTAX INVOICE\nInvoiceNo;HSR/26-27/4921\nGuest;Mr.Ms,ShubhamGawande\nInvoiceDate:15Ju2025\nCheck-in;14Jul202613:30\nCompany,TarangPharmaDistribution\nCheck-oul:15Jul202810:15\nRoom No;423\nRoomType;ExscutiveAC\nS.No\nDsscription\nSAC\nNights\nRats\nAmount\nRoomTariff\n996311\n2,100.00\n2.100.00\nTaxable Value\n2,100.00\nCOST@6%\n126.00\nS0ST@6%\n126.00\nTotal (INR)\n2,352.00\nAmount in words;Rupees TwoThousandThree Hundred Fity Two Only\nPaymentModeUPi\nGusst Signature\nForHotel Shutham Residenty\nPuthotised Signatoty"
+}

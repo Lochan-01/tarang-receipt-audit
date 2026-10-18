@@ -1,0 +1,29 @@
+{
+  "vendor": "Spice Route Kitchen",
+  "receipt_date": "2026-07-09",
+  "receipt_number": "",
+  "gstin": "27NCRPN1784A3Z1",
+  "total_amount": 1113.0,
+  "subtotal": 280.0,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (280.0) + tax (32.0) = 312.00 != total (1113.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (280.0) + tax (32.0) = 312.00 != total (1113.0)"
+  ],
+  "raw_text": "SPICEROUTEKITCHEN\nCivil Lines,Nagpur\nPh:0712-2765565\nGSTIN:27NCRPN1784A3Z1\nTAX INVOICE\nBi1l No:6144\nDate:09-07-2026\nSteward: Vijay\nTable:9\n9:07PM\nItem\nQty\nKaju Curry\nAmount\nSandwich\nFresh Lime Soda\n600.00\nSaoji Paneer\n110.00\n70.00\nSub Total\n280.00\nCGST@2.5%\nSGST@2.5%\n1060.00\nRound off\n26.50\n26.50\n+0.00\nGRAND\nTOTAL\nRS\n1113.00\nItems:4\nPay ModeCar\nThank you, visit\nagain!"
+}

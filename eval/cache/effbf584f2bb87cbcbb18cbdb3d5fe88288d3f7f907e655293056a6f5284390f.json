@@ -1,0 +1,27 @@
+{
+  "vendor": "Hotel Shubham Residency",
+  "receipt_date": "2026-07-09",
+  "receipt_number": "HSR/26-27/4886",
+  "gstin": "27UVQFW9408Y1ZS",
+  "total_amount": 2100.0,
+  "subtotal": null,
+  "tax": 12.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.6,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "Guest: Mr./Ms. Shubham Gawande\nS.No Description\nCheck-in: 07 Jul 2026 13:30\nRoom No: 227\nInvoiceNo:HSR/26-27/4886\nGuest Signature\nPayment Mode: Cash\nRoom Tariff\nStationRoad,Chandrapur/Ph:07172-2632587/GSTIN:27UVQFW9408Y1Zs\nHOTELSHUBHAMRESIDENCY\nTAX INVOICE\n996311\nSAC\nCompany:Tarang Pharma Distribution\nCheck-out: 09 Jul 2026 10:15\nRoom Type: Deluxe AC\nInvoiceDate:09 Jul 2026\nNights\nSGST@6%\nCGST @ 6%\nTotal (INR)\nTaxable Value\nFor Hotel Shubham Residency\n2,100.00\nRate\nAuthorised Signatory\n4,704.00\n4,200.00\n4,200.00\nAmount\n252.00\n252.00"
+}

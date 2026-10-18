@@ -1,0 +1,27 @@
+{
+  "vendor": "Hotel Rajdhani Dhaba",
+  "receipt_date": "2026-06-22",
+  "receipt_number": "3377",
+  "gstin": "",
+  "total_amount": 420.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "HOTELRAJDHANIDHABA\nHingnaRoad,Nagpur\nPureVeg&Non-VegFamily Section\nDate_22-6-2026\nBill No.3377\nAmount\nParticulars\n110\n1Sev Bhaji\n150\nI Thali\n140\nlEgg Curry\n20\nSamosa\n420\nTotal Rs.\nThankYou-VisitAgain"
+}

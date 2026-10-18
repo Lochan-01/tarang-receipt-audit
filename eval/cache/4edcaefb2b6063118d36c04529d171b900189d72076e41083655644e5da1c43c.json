@@ -1,0 +1,27 @@
+{
+  "vendor": "New Highway Service Station",
+  "receipt_date": "2026-07-16",
+  "receipt_number": "002150",
+  "gstin": "",
+  "total_amount": 486.75,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": 486.75,
+  "vehicle_no": "MH27 DE 7781",
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "HPCL\nNEW HIGHWAY SERVICE STATION\nBadnera Road,Amravati\nReceipt No :002150\nDate:2026-07-16 Time:10:22\nPump:4\nPrpduct\nNozzle:2\nKate(Rs/L):104.23\n:PETROL\nVolume(L):4.67\nAmount\uff08Rs):486.75\nVehicle No :\nMode\nMH27DE7781\n:UPI\nTOTAL\nRS.\n486.75\nThank You! Visit Again\nSave Fuel, Save Money"
+}

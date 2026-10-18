@@ -1,0 +1,27 @@
+{
+  "vendor": "Sitabuldi Multilevel Parking",
+  "receipt_date": "2026-07-30",
+  "receipt_number": "",
+  "gstin": "",
+  "total_amount": 30.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": 36167.0,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.2,
+    "gstin": 1.0,
+    "total_amount": 0.65
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SITABULDIMULTILEVELPARKING\nZicketMo:118349\n13631F66627\nTyoe\nZ(Oay rate)\n36167/26169:36\nout\n36/67/2611:21\n30.00\nRmount Rs"
+}

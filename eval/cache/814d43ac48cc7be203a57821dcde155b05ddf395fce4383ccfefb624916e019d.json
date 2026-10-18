@@ -1,0 +1,30 @@
+{
+  "vendor": "Hotel Pradeep Pure Veg",
+  "receipt_date": "2026-07-24",
+  "receipt_number": "",
+  "gstin": "27ODUFJ1789K3ZU",
+  "total_amount": 0.0,
+  "subtotal": 17.5,
+  "tax": 5.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (17.5) + tax (5.0) = 22.50 != total (0.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (17.5) + tax (5.0) = 22.50 != total (0.0)"
+  ],
+  "raw_text": "HOTELPRADEEPPUREVEG\nDhantol1,Nagpur\nGSTIN\n270DUFJ1789K3ZU\nTAX INVOICE\nTable:22\n2:11PM\nB111No:1524\nDate:24/07/2026\nSteward:Sunil\nAmount\nQty\nItem\n70.00\n480.00\nFresh Lime Soda\n150.00\nVeg Biryani\nJeera Rice\n700.00\n17.50\nSub Total\n17.50\nCGST @2.5%\n+0.00\nSGST@2.5%\nRound off\n735.00\nRS\nGRAND\nTOTAL\nPay Mode:UPI\nItems:3\nThank you, visit again!"
+}

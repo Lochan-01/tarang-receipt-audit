@@ -1,0 +1,29 @@
+{
+  "vendor": "Jai Ambe Fuels",
+  "receipt_date": "2026-06-14",
+  "receipt_number": "001031",
+  "gstin": "",
+  "total_amount": 200.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": 104.85,
+  "volume": 200.0,
+  "vehicle_no": "MH29 AR 4419",
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.3
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Fuel math mismatch: 104.85 * 200.0 = 20970.00 != total (200.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Fuel math mismatch: 104.85 * 200.0 = 20970.00 != total (200.0)"
+  ],
+  "raw_text": "BPCL\nJAI AMBE FUELS\nDarwha Road, Yavatmal\nReceipt No :001031\nDate:14/06/2026\nTime:14:28\nPump:6\nNozzle:1\nProduct\n:PETROL\nRate (Rs/L):104.85\nVolume (L):1.91\nAmount (Rs):200.00\nVehicle No :MH29AR4419\nMode\n\uff1aUPI\nTOTAL\nRS.\n200.00\nDinkJoshi Mitgt Again\nMoney"
+}

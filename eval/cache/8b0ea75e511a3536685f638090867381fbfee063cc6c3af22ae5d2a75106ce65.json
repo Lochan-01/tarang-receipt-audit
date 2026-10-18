@@ -1,0 +1,27 @@
+{
+  "vendor": "Cafe Coffee Corner",
+  "receipt_date": "2026-08-05",
+  "receipt_number": "",
+  "gstin": "",
+  "total_amount": 1082.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.94,
+    "receipt_date": 0.6,
+    "receipt_number": 0.2,
+    "gstin": 1.0,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "CAFECOFFEECORNER\nPC672-23311\nTanle: 24\nDe\uff1a85-68-275\nSteartmifay\nItem\nDal Tatka\n358.68\nFresih Lfime Sota\n70.60\nChaas\n40.60\nSaoff Paneer\nSub Total\n(5T 02.5%\n25.75\nS65T 02.58\n25.75\nRound off\nGRAND\nTOTAL\nRS\n1082.00\nItens:\nPay\nThank you wisft agaim!"
+}

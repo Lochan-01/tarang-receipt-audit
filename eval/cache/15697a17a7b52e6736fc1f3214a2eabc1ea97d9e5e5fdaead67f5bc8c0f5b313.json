@@ -1,0 +1,29 @@
+{
+  "vendor": "Ashirwad Veg Restaurant",
+  "receipt_date": "2026-07-01",
+  "receipt_number": "",
+  "gstin": "2701LF01994Z2ZV",
+  "total_amount": 11.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.6,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.3,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Format does not match standard Indian GSTIN syntax"
+  ],
+  "raw_text": "GRAND TOTAL\nRound Off\nSGST\nCGST\nSub\nGulab\nVeg\nItem\nSteward:\nDate:\nB11l No:\nTotal\n@2.5%\n@2.5%\nManchurian\nJamun\n01.07.2026\nvijay\n6127\nItems:\nGSTIN:\nRS\nPh:\nRamdaspeth.\nTAX\n2701LF01994Z2ZV\nPay Mode:\n0712-2443745\nINVOICE\nNagpur\nQty\nCard\n388\nAmount\n1:12\nTable:\n370.\n210.00\n160.\nASHIRWADVEGRESTAURANT\n.00\n00"
+}

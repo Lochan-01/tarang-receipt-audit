@@ -1,0 +1,27 @@
+{
+  "vendor": "Maa Durga Cab Service",
+  "receipt_date": "2026-06-14",
+  "receipt_number": "8219",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "MAADURGACABSERVICE\nNearBusStand,Chandrapur Mob:9422108812\nDate:14/6/26\nNo.8219\nAohwini-Tarang\nName:\nTo:Dhantoli\nRawaustn\nFrom?\n75\n12307-\nAmountRs.\nRupees (inwords):\n2pux\nrivekeSignature"
+}

@@ -1,0 +1,27 @@
+{
+  "vendor": "Royal Travels",
+  "receipt_date": "2026-07-05",
+  "receipt_number": "8435",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.6,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "Name:\nFrom:\nNo.8435\nAmount Rs.\nRupees (in words):\nVehicle No:\nKalyani\nMH32\nStationRoad,Wardha|Mob:9970055214\n1130\nROYALTRAVELS\nOne Thousand\nTarang\nTo\nKm\ningnaMIDC\nDate:\nDriver's Signature\n5/7/2026"
+}

@@ -1,0 +1,29 @@
+{
+  "vendor": "Shivam Family Restaurant",
+  "receipt_date": "2026-06-26",
+  "receipt_number": "",
+  "gstin": "27XMECH9812R2ZH",
+  "total_amount": 336.0,
+  "subtotal": 120.0,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (120.0) + tax (32.0) = 152.00 != total (336.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (120.0) + tax (32.0) = 152.00 != total (336.0)"
+  ],
+  "raw_text": "SHIVAMFAMILYRESTAURANT\nSitabuldi.Nagpur\nPh:8712-2293841\nGSTIN:27XMECH9812R2ZH\nTAX INVOICE\nB111No:2647\nDate:2026-06-26\nSteward:Kiran\nTable:3\n8:22PM\nItem\nQty\nMix Veg\nAmount\nCold Coffee\n200.00\nSub Total\n120.00\nCGST@2.5%\nSGST@2.5%\n320.00\nRound Off\n8.00\n8.00\n+0.00\nGRAND\nTOTAL\nRs\n336.00\nItems:2\nPay Mode:UPI\nThank you, visit again!"
+}

@@ -1,0 +1,27 @@
+{
+  "vendor": "Sitabuldi Multilevel Parking",
+  "receipt_date": "2026-06-22",
+  "receipt_number": "112002",
+  "gstin": "",
+  "total_amount": 30.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.65
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SITABULDIMULTILEVELPARKING\nNaspur Municipal Corporaton\nTicket No: 112002\nVehNo:MH31Dxe9s1\nType\n2W(Dayrate)\n22/86/2612:13\n22/06/2615:33\nAlenichNagarvsit\n30.00\nAmount\nWehicle parked at owher's tisk"
+}

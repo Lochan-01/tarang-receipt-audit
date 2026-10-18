@@ -1,0 +1,29 @@
+{
+  "vendor": "Ashirwad Veg Restaurant",
+  "receipt_date": "2026-07-01",
+  "receipt_number": "",
+  "gstin": "2701LF01994Z2ZV",
+  "total_amount": 388.0,
+  "subtotal": null,
+  "tax": 5.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.2,
+    "gstin": 0.3,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Format does not match standard Indian GSTIN syntax"
+  ],
+  "raw_text": "ASHIRWADVEGRESTAURANT\nRamdaspeth,Nagpur\nPh:6712-2443745\nGSTIN\n2701LF01994Z2ZV\nTAX INVOICE\nB111 No:\n6028\nTable:20\nDate\n01.87.2026\n12:31PM\nSteward\nKiran\nItem\nQty\nAmount\nButter Roti\nSandwich\n90.00\nMasala Papad\n220.00\n60.00\nSub Total\nCGST @2.5%\n370.00\nSGST @2.5%\n9.25\nRoundOff\n9.25\n-0.50\nGRAND\nTOTAL\nRs\n388.00\nItems:3\nPay Mode:UPI\nThank you,visit again!"
+}

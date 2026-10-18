@@ -1,0 +1,29 @@
+{
+  "vendor": "Hotel Saibaba Bhojnalaya",
+  "receipt_date": "2026-06-23",
+  "receipt_number": "",
+  "gstin": "27MTSPF44SSTIZB",
+  "total_amount": 315.0,
+  "subtotal": null,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.94,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.3,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Format does not match standard Indian GSTIN syntax"
+  ],
+  "raw_text": "HOTELSAIBABABHOJNALAYA\nHain Road,Yavatmal\nPh:8712-2381271\nGSTIN:27MTSPF44SSTIZB\nTAX INVOICE\nTable:7\n12:47PM\nB111 No:6191\nDate:23/06/2026\nSteward:Manoj\nAmount\nQty\nItem\n228.88\n80.00\nVeg Thal1\nGulab Jamun\n300.80\n7.50\nSub Total\nCGST02.5%\n7.50\nSGST02.5%\n+0.08\nRound oft\n315.00\nTOTAL\nRs\nGRAND\nItews:\nTantaponKed\nThank you.\nvisit again!"
+}

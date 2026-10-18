@@ -1,0 +1,27 @@
+{
+  "vendor": "Jai Ambe Fuels",
+  "receipt_date": "2026-07-02",
+  "receipt_number": "paid",
+  "gstin": "",
+  "total_amount": 300.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": "MH29 AR 4419",
+  "confidences": {
+    "vendor": 0.6,
+    "receipt_date": 0.6,
+    "receipt_number": 0.9,
+    "gstin": 1.0,
+    "total_amount": 0.65
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "TOTAL\nMode\nVehicle No :\nAmount\nVolume\nRate (Rs/L):\nProduct\nPump:\nDate:\nReceipt No\npaid\n(RS):\n(L)\nRS\nCash\n2.86\n104.85\n300.00\n\uff1a001251\nPETROL\nTime:10:16\n\uff1a02/0712026\nBPCL\n\uff1aMH29AR4419\nNozzle:1\nSave Fuel, Save Money\nThank You! Visit Again\nDarwha Road,Yavatmal\nJAI AMBE FUELS\n300.00"
+}

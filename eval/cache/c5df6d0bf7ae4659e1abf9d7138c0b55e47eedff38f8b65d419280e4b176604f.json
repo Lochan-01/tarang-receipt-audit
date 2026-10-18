@@ -1,0 +1,30 @@
+{
+  "vendor": "Hotel Pradeep Pure Veg",
+  "receipt_date": "2026-06-27",
+  "receipt_number": "1361",
+  "gstin": "27ODUFJ1789K3ZU",
+  "total_amount": 430.0,
+  "subtotal": 10.25,
+  "tax": 275.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (10.25) + tax (275.0) = 285.25 != total (430.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (10.25) + tax (275.0) = 285.25 != total (430.0)"
+  ],
+  "raw_text": "HOTEL PRADEEPPUREVEG\nDhantoli,Nagpur\nPh:0712-2682988\nGSTIN:270DUFJ1789K3ZU\nTAX INVOICE\nTable:13\n1:49PM\nBill No:1361\nDate:27/06/2026\nSteward:Vijay\nQty\nAmount\nItem\n90.00\nButter Roti\n140.00\nMasala Dosa\n180.00\nDal Tadka\n410.00\nSub Total\n10.25\nCGST @2.5%\n10.25\nSGST @2.5%\n-0.50\nRound Off\nRS\n430.00\nGRAND TOTAL\nItems:3\nPaf Hod\nThank you, visiy again!"
+}

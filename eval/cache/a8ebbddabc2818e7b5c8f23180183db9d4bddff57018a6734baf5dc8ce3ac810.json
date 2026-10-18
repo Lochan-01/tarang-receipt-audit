@@ -1,0 +1,30 @@
+{
+  "vendor": "Hotel Gulmohar Executive",
+  "receipt_date": "2026-06-16",
+  "receipt_number": "HGE/26-27/7496",
+  "gstin": "27PMLCE5129S3ZO",
+  "total_amount": 2352.0,
+  "subtotal": 2100.0,
+  "tax": 12.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.94,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: GSTIN checksum mismatch (expected 'O', found '0')",
+    "Tax arithmetic mismatch: subtotal (2100.0) + tax (12.0) = 2112.00 != total (2352.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (2100.0) + tax (12.0) = 2112.00 != total (2352.0)"
+  ],
+  "raw_text": "HOTELGULMOHAREXECUTIVE\nBus StandRoad,Yavatmal/Ph:07172-2266854GSTIN:27PMLCE5129S3Z0\nTAXINVOICE\nInvoiceDate:16Jun2026\nInvoiceNo:HGE/26-27/7496\nCompany:TarangPharmaDistribution\nGuest:Mr./Ms.PrachiWasnik\nCheck-in:15Jun202613:30\nCheck-0ut:16Jun202610:15\nRoomType:StandardAC\nRoomNo:112\nRate\nNights\nAmount\nDescription\nS.No\nSAC\n2,100.00\n2,100.00\nRoom Tariff\n996311\nTaxableValue\n2,100.00\nCGST @6%\n126.00\nSGST@6%\n126.00\nTotal (INR)\n2,352.00\nAmount in words:Rupees Two Thousand ThreeHundred Fifty Two Only\nPayment Mode: Card\nFor Hotel Gulmohar Executive\nGuest Signature\nAuthorised Signatory"
+}

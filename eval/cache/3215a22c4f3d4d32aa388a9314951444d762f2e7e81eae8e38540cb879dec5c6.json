@@ -1,0 +1,29 @@
+{
+  "vendor": "Family Shivam Restaurant",
+  "receipt_date": "2026-07-10",
+  "receipt_number": "",
+  "gstin": "27XNECH9812R2ZH",
+  "total_amount": 2026.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.5,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.5,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: GSTIN checksum mismatch (expected 'F', found 'H')",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "GSTIN checksum mismatch (expected 'F', found 'H')"
+  ],
+  "raw_text": "19,50\n00'0+\n19.50\n819.00\n240.00\n150.00\n780.00\n00't\n360.00\nTable:20\nSHIVAM FAMILY RESTAURANT\nHoder Cash\nThank you, visit againt\n27XNECH9812R2ZH\noty\n07122293041\nTAX INVOICE\nSitabulal,\nItemsl\nGRAND TOTAL\nGSTINE\nDate:2026-07-10\nfouen\nTandoort Roti\n2841\nVeg Biryant\nTadka\nRound oft\nBilI No:\nSteward:\nCGST\nSGST"
+}

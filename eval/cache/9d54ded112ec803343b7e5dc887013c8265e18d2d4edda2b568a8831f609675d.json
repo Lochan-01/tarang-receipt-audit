@@ -1,0 +1,27 @@
+{
+  "vendor": "Shree Ganesh Tours & Travels",
+  "receipt_date": "2026-06-16",
+  "receipt_number": "3685",
+  "gstin": "",
+  "total_amount": 12607.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": "MH31 CN 9713",
+  "confidences": {
+    "vendor": 0.85,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.65
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SHREEGANESHTOURS&TRAVELS\nGaneshpeth,Nagpur/Mob:9822041763\n16/6/2026\nNo.3685\nDate:\nName:\nPooia-Tarang\nNagpr\nFrom:\nTo:\nMH31CN9713\nKm:\nVehicle No:\nAmountRs\n12607-\nRupees (in words):\n2 pax\nDriver's Signature"
+}

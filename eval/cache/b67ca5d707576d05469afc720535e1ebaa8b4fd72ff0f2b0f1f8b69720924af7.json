@@ -1,0 +1,29 @@
+{
+  "vendor": "Ashirwad Veg Restaurant",
+  "receipt_date": "2026-07-14",
+  "receipt_number": "Total",
+  "gstin": "2701LF01994Z2ZV",
+  "total_amount": 14.07,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.6,
+    "receipt_date": 0.95,
+    "receipt_number": 0.9,
+    "gstin": 0.3,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Format does not match standard Indian GSTIN syntax"
+  ],
+  "raw_text": "GRAND TOTAL\nRound Off\nSGST\nCGST\nSub\nJeera\nMasala Dosa\nColCoffee\nItem\nSteward: Raju\nDate:14.07.2026\nBill No:\nTotal\n@2.5%\n@2.5%\nRice\npaid\n6318\nASHIRWADVEGRESTAURANT\nThank you, visit again!\nItems:3\nGSTIN:\nRs\nPh:8712-2443745\nRamdaspeth,Nagpur\nTAX INVOICE\n2701LF01994Z2ZV\nPay Mode:UPI\nQty\n430.00\nTable:\nAmount\n410.00\n150.00\n140.00\n120.00\n1:50\n-0.50\n10.\n10.\nPM\n19"
+}

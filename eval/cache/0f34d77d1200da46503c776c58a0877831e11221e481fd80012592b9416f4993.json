@@ -1,0 +1,27 @@
+{
+  "vendor": "Prompt Parcel Services",
+  "receipt_date": "2026-07-24",
+  "receipt_number": "",
+  "gstin": "27IRWFN4293M2Z1",
+  "total_amount": 330.4,
+  "subtotal": null,
+  "tax": 45.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "PROMPTPARCELSERVICES\nRajkamal Chowk,Amravati\nGSTIN:27IRWFN4293M2Z1\nBOOKING RECEIPT\nAWB No\n\uff1aPP16214660\nDate\n2026-07-24 09:56\nOrigin\nNAGPUR\nDest\nRAIPUR\nPcs:1\nwt:1.500kg\nMode\nSURFACE\nConsignee:Tarang Pharma -Pune Depot\nFreight\nGST@18%\n280.00\n50.40\nTOTAL RS\n330.40\nTrack:www.track-shipment.in"
+}

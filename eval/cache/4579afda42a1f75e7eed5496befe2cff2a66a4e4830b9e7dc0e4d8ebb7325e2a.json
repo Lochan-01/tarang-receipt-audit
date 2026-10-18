@@ -1,0 +1,30 @@
+{
+  "vendor": "Annapurna Dining Hall",
+  "receipt_date": "2026-07-27",
+  "receipt_number": "A/1689",
+  "gstin": "27GIZFL1093Q2ZK",
+  "total_amount": 483.0,
+  "subtotal": 11.5,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (11.5) + tax (32.0) = 43.50 != total (483.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (11.5) + tax (32.0) = 43.50 != total (483.0)"
+  ],
+  "raw_text": "ANNAPURNADININGHALL\nBajaj Chowk.Wardha\nPh:8712-2352535\nGSTIN:27G1ZFL1093Q2ZK\nTAX INVOICE\nTable:11\n2:46PM\nB11lNo:A/1689\nDate:27.07.2026\nSteward: Kiran\nAmount\nQty\nItem\n220.00\n210.00\nVeg Thal1\n30.00\nVeg Manchurian\nMineral Water\n460.00\n11.58\nSub Total\n11.50\nCGST@2.5%\n+0.00\nSGST@2.5%\nRound Off\n483.00\nRS\nGRAND TOTAL\npaid\nItems:\nPay Mode:UPI\nThank you, visit again!"
+}

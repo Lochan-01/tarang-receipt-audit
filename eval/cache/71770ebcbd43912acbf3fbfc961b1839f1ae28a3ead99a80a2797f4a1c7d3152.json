@@ -1,0 +1,27 @@
+{
+  "vendor": "Jai Ambe Fuels",
+  "receipt_date": "2026-08-03",
+  "receipt_number": "",
+  "gstin": "",
+  "total_amount": 250.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": 2.38,
+  "volume": null,
+  "vehicle_no": "MH31 FA 2298",
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.6,
+    "receipt_number": 0.2,
+    "gstin": 1.0,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "BPCL\nJAI AMBE FUELS\nDarha Road, Yavatnal\n891723\nReceipt No :\nTime:14:33\nDate:83/88/2626\nNozzle:1\nPunp:3\nPETROL\nProduct\n184.85\nRate(Rs/L):\n2.38\nVolune(L):\n258.60\nAnount (Rs):\nMH31FA2298\nVehicle No :\nUPI\nMode\n250.00\nRS.\nTOTAL\nThank You! Visit Again\nSave Fuel. Save Roney"
+}

@@ -1,0 +1,29 @@
+{
+  "vendor": "Hotel Saibaba Bhojnalaya",
+  "receipt_date": "2026-06-13",
+  "receipt_number": "6084",
+  "gstin": "27MTSPF4455T1ZB",
+  "total_amount": 262.0,
+  "subtotal": 250.0,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (250.0) + tax (32.0) = 282.00 != total (262.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (250.0) + tax (32.0) = 282.00 != total (262.0)"
+  ],
+  "raw_text": "HOTELSAIBABABHOJNALAYA\nMain Road,Yavatmal\nPh:0712-2301271\nGSTIN:27MTSPF4455T1ZB\nTAX INVOICE\nB11l No:6084\nTable:5\nDate:13/06/2026\n1:50PM\nSteward:Raju\nItem\nQty\nAmount\nMasala Papad\n60.00\nChaas\n40.00\nJeera Rice\n150.00\nSub Total\n250.00\nCGST @2.5%\n6.25\nSGST@2.5%\n6.25\nRound off\n-0.50\nGRAND\nTOTAL\nRs\n262.00\nPay Mode:UPI\nThank you, visit again!"
+}

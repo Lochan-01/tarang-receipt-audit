@@ -1,0 +1,30 @@
+{
+  "vendor": "Hotel Pradeep Pure Veg",
+  "receipt_date": "2026-06-15",
+  "receipt_number": "1171",
+  "gstin": "27ODUFJ1789K3ZU",
+  "total_amount": 430.0,
+  "subtotal": 10.25,
+  "tax": 275.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.92,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (10.25) + tax (275.0) = 285.25 != total (430.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (10.25) + tax (275.0) = 285.25 != total (430.0)"
+  ],
+  "raw_text": "HOTELPRADEEPPUREVEG\nDhantoli,Nagpur\nPh:0712-2682988\nGSTIN:270DUFJ1789K3ZU\nTAX INVOICE\nTable:20\nB11lNo:1171\n8:43PM\nDate:15/06/2026\nSteward:Ramesh\nQty\nAmount\nItem\n150.00\nJeera Rice\n260.00\nPaneer\nButter Masala\n410.00\n10.25\nSub Total\n10.25\nCGST @2.5%\n-0.50\nSGST @2.5%\nRound Off\n430.00\nRs\nTOTAL\nGRAND\nPay Mode:Cash\nItems:2\nThank you, visit again!"
+}

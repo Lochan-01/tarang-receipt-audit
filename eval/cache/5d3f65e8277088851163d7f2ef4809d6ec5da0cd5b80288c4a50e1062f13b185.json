@@ -1,0 +1,27 @@
+{
+  "vendor": "Dining Annapurna Hall",
+  "receipt_date": "2026-07-28",
+  "receipt_number": "A/1882",
+  "gstin": "27GIZFL1093Q2ZK",
+  "total_amount": 651.0,
+  "subtotal": null,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.5,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "ANNAPURNADINING HALL\nBajaj Chowk,Wardha\nPh:0712-2352535\nGSTIN:27GIZFL1093Q2ZK\nTAX INVOICE\nBill No:A/1882\nDate:28.07.2026\nTable: 12\nSteward: Kiran\n8:08PM\nItem\nQty\nAmount\nSandwich\nMix Veg\n220.00\n400.00\nSub Total\nCGST @2.5%\n620.00\nSGST @2.5%\n15.50\nRound Off\n15.50\n+0.00\nGRAND\nTOTAL\n651.00\nItems:2\nPay Mode:Cash\nThank you, visit again!"
+}

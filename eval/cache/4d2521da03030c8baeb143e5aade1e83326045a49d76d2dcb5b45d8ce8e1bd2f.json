@@ -1,0 +1,29 @@
+{
+  "vendor": "Spice Route Kitchen",
+  "receipt_date": "2026-06-13",
+  "receipt_number": "5796",
+  "gstin": "27NCRPN1784A3Z1",
+  "total_amount": 588.0,
+  "subtotal": 560.0,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (560.0) + tax (32.0) = 592.00 != total (588.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (560.0) + tax (32.0) = 592.00 != total (588.0)"
+  ],
+  "raw_text": "SPICE ROUTEKITCHEN\nCivil Lines, Nagpur\nPh:0712-2765565\nGSTIN:27NCRPN1784A3Z1\nTAX INVOICE\nTable:2\nBill No:5796\n1:03PM\nDate:13-06-2026\nSteward:Manoj\nQty\nItem\nAmount\nCold Coffee\n120.00\nFresh Lime Soda\n70.00\nSaoji Paneer\n280.00\nButter Roti\n90.00\nSub Total\n560.00\nCGST @2.5%\n14.00\nSGST @2.5%\n14.00\nRound Off\n+0.00\nGRAND TOTAL\nRs\n588.00\nItems:4\nPay Mode:Card\nThank you, visit again!"
+}

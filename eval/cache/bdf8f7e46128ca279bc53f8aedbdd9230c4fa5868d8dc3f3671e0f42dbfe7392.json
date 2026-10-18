@@ -1,0 +1,28 @@
+{
+  "vendor": "Hotel Pradeep Pure Veg",
+  "receipt_date": "2026-06-13",
+  "receipt_number": "",
+  "gstin": "27ODUFJ1789K3ZU",
+  "total_amount": 1145.0,
+  "subtotal": null,
+  "tax": 5.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.6,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "12:28PM\nAmount\n150.00\n260.00\n80.00\n490.00\n12.25\n12.25\n-0.50\nTable:\n1514.00\nHOTELPRADEEPPUREVEG\n270DUFJ1789K3ZU\nPay Mode:UPI\nThank you, visit again!\nDhantoli,Nagpur\nPh:0712-2682988\nTAX INVOICE\nGSTIN:\nMasala\nRs\nItems:\n13/06/2026\nGRAND TOTAL\n1145\nRaju\nButter\nRice\nCGST @2.5%\nSub Total\nSGST @2.5%\nSteward:\nFON\nRound Off\nJeera\nDate:\nPaneer\nItem\nGulab\nBilt"
+}

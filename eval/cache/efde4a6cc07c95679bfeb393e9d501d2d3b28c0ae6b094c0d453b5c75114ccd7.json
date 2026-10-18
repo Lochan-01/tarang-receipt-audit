@@ -1,0 +1,27 @@
+{
+  "vendor": "Spice Route Kitchen",
+  "receipt_date": "2026-06-15",
+  "receipt_number": "5920",
+  "gstin": "27NCRPN1784A3Z1",
+  "total_amount": 262.0,
+  "subtotal": null,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SPICE ROUTEKITCHEN\nCivil Lines,Nagpur\nPh:e712-2765565\nGSTIN:27NCRPN1784A3Z1\nTAX INVOICE\nB11l No:5920\nTable:5\nDate:15-06-2026\n9:12PM\nSteward:Manoj\nItem\nQty\nAmount\nVeg Manchurian\nChaas\n210.00\n40.00\nSub Total\nCGST@2.5%\n250.00\nSGST@2.5%\n6.25\nRound Off\n6.25\n-0.50\nGRAND TOTAL\nRS\n262.00\nItems:2\nPay Mode: Card\nThank you, visit again!"
+}

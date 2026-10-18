@@ -1,0 +1,29 @@
+{
+  "vendor": "Hotel Krishna Comforts",
+  "receipt_date": "2026-08-05",
+  "receipt_number": "HKC/26-27/5346",
+  "gstin": "27HPFCA5856Y3ZE",
+  "total_amount": 2016.0,
+  "subtotal": 108.0,
+  "tax": 12.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (108.0) + tax (12.0) = 120.00 != total (2016.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (108.0) + tax (12.0) = 120.00 != total (2016.0)"
+  ],
+  "raw_text": "HOTELKRISHNACOMFORTS\nGaneshpeth,Nagpur/Ph:07172-2398810/GSTIN:27HPFCA5856Y3ZE\nTAXINVOICE\nInvoliceDate:05.08.2026\nCompany:Tarang Pharma Distribution\nInvoiceNo:HKC/26-27/5346\nCheck-out: 05.08.2026 10:15\nRoomType:DeluxeAC\nAmount\nGuest:Mr./Ms,TusharBarde\nRate\nNights\nCheck-in:04.08.202613:30\n1,800.00\nSAC\n1,800.00\nRoomNo:307\n1,800.00\n996311\nDescription\nTaxable Value\n108.00\nS.No\n108.00\nCGST @6%\nRoom Tariff\nSGST @6%\n2,016.00\nTotal (INR)\nFor Hotel Krishna Comforts\nAmount in words:Rupees Two Thousand Sixteen Only\nAuthorised Signatory\nPayment Mode:Card\nGuest Signature"
+}

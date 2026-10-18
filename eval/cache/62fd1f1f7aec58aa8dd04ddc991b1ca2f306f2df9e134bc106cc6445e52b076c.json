@@ -1,0 +1,27 @@
+{
+  "vendor": "Royal Travels",
+  "receipt_date": "2026-07-20",
+  "receipt_number": "8485",
+  "gstin": "",
+  "total_amount": 360.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": "MH34 CN 2998",
+  "confidences": {
+    "vendor": 0.91,
+    "receipt_date": 0.6,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.65
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "ROYALTRAVELS\nStationRoad,WardhaMob:9970055214\nNo.8485\nKaluani-Tarang\nDate:\nName:\n20/7126\nFrom:\nNaapur\nTo:Kamptee\nVehicleNo:MH34CN2998\nKm:\n20\nAmountRs.360/-\nRupees (in words):Three Hundred Sixty only\nDriver's Signature"
+}

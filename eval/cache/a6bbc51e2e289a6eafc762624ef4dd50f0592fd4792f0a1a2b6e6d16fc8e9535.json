@@ -1,0 +1,28 @@
+{
+  "vendor": "Hotel Pradeep Pure Veg",
+  "receipt_date": "2026-06-24",
+  "receipt_number": "",
+  "gstin": "27ODUFJ1789K3ZU",
+  "total_amount": 504.0,
+  "subtotal": null,
+  "tax": 275.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.9
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "HOTELPRADEEPPUREVEG\nDhantoli,Nagpur\nPh:0712-2682988\nGSTIN:270DUFJ1789K3ZU\nTAX INVOICE\nB111 No:1286\nDate:24/06/2026\nSteward:Raju\nTable:17\n1:39PM\nItem\nQty\nButter Roti\nAmount\nCold Coffee\nMasala Papad\n90.00\nVeg Manchurian\n120.00\n60.00\n210.00\nCGST@2.5%\nSGST@2.5%\n480.00\nRound Off\n12.00\n12.00\nGRAND\nTOTAL\n+0.00\nItems:\n504.00\nThank you,\nPay Modet Card\nvisit agatn!"
+}

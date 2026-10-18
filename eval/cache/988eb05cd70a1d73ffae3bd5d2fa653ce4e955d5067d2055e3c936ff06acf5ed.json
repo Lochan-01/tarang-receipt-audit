@@ -1,0 +1,27 @@
+{
+  "vendor": "Shree Ganesh Tours & Travels",
+  "receipt_date": "2026-06-23",
+  "receipt_number": "3741",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.88,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SHREEGANESHTOURS&TRAVELS\nGaneshpeth,Nagpur1Mob:9822041763\nDate:23/6/26\nNo.3741\ni-Tarang\nName:\nAirportTo:Sitabuldi\nNa\nFrom:\n42\nKm:\nVehicleNo:MH340p5187\n15507-\nAmountRs.\nFiveHundredFiffyonly\nRupees (inwords):\nDriver's Signature"
+}

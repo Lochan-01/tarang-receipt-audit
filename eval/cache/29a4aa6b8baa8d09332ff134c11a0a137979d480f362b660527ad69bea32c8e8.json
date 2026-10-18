@@ -1,0 +1,27 @@
+{
+  "vendor": "Royal Travels",
+  "receipt_date": "2026-07-05",
+  "receipt_number": "8458",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": "MH31 CP 5099",
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "ROYAL TRAVELS\nStationRoad, Wardha\nMob:9970055214\nNo..8458\nDate:\n5-7-2026\nShubham-Tarang\nName:\nFrom:\nGaneshpeth\nTo:AllMSMihan\nVehicle No:MH31CP5099\nKm:\n28\n370/-\nAmountRs.\nThree Hundred Seventy only\nRupees (in words):\nDriver's Signature"
+}

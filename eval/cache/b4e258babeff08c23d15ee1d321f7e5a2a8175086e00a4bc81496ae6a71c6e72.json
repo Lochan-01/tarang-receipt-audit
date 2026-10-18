@@ -1,0 +1,31 @@
+{
+  "vendor": "Ashirwad Veg Restaurant",
+  "receipt_date": "2026-07-12",
+  "receipt_number": "6290",
+  "gstin": "270ILF01994Z2ZV",
+  "total_amount": 546.0,
+  "subtotal": 13.0,
+  "tax": 275.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.3,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (13.0) + tax (275.0) = 288.00 != total (546.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (13.0) + tax (275.0) = 288.00 != total (546.0)"
+  ],
+  "raw_text": "ASHIRWADVEG RESTAURANT\nRamdaspeth,Nagpur\nPh:e712-2443745\nGSTIN:270ILF01994Z2ZV\nTAX INVOICE\nTable:5\n1:10PM\nB11l No:6290\nDate:12.07.2026\nSteward:Raju\nAmount\nQty\n140.00\n110.00\nMasala Dosa\n150.00\nSandwich\n120.00\nJeera Rice\nCold Coffee\n520.00\n13.00\nSub Total\n13.00\nCGST @2.5%\n+0.00\nSGST@2.5%\nRound Off\n546.00\nRS\nTOTAL\nGRAND\nPay Mode\nItems:4\nThankyou,visit again!"
+}

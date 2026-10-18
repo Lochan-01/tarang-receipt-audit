@@ -1,0 +1,29 @@
+{
+  "vendor": "Shivam Family Restaurant",
+  "receipt_date": "2026-07-20",
+  "receipt_number": "",
+  "gstin": "",
+  "total_amount": 0.0,
+  "subtotal": 10.79,
+  "tax": 26.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 1.0,
+    "total_amount": 0.0
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (10.79) + tax (26.0) = 36.79 != total (0.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (10.79) + tax (26.0) = 36.79 != total (0.0)"
+  ],
+  "raw_text": "SHIVAM FAMILYRESTAURANT\nSitabuldi,Naspuf\nPh:8712-2293041\nGST1NI27XMECH9812R2ZH\nTAX INVOICE\n8111 No:3006\nDate:2026-07-20\nTable:8\nSteward:Manoj\n2136PH\nItem\nQty\nAmount\nMineral Water\n30.00\nSaoji Paneer\n280.00\nCold Coffee\n120.00\n430.00\nSub Total\n10.79\nCGST02,5%\n10.75\nSG5T 02.5%\n+0.50\nRound ofr\n452.00\nTVLOL\nRS\nGRAND\nltemsi\nPay Hodel upi\nThank you,visit againt"
+}

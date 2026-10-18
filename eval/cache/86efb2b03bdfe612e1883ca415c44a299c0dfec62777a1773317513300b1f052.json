@@ -1,0 +1,30 @@
+{
+  "vendor": "Hotel Pradeep Pure Veg",
+  "receipt_date": "2026-06-12",
+  "receipt_number": "1130",
+  "gstin": "27ODUFJ1789K3ZU",
+  "total_amount": 178.0,
+  "subtotal": 170.8,
+  "tax": 275.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (170.8) + tax (275.0) = 445.80 != total (178.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (170.8) + tax (275.0) = 445.80 != total (178.0)"
+  ],
+  "raw_text": "HOTELPRADEEPPUREVEG\nDhantoli, Nagpur\nPh:0712-2682988\nGSTIN:270DUFJ1789K3ZU\nTAX INVOICE\nB11l No:1130\nTable: 22\nDate:12/06/2026\n9:04PM\nSteward: Sunil\nItem\nQty\nAmount\nSandwich\n110.00\nMasala Papad\n60.00\nSub Total\n170.80\nCGST@2.5%\n4.25\nSGST @2.5%\n4.25\nRound Off\n-0.50\nRs\nTOTAL\n178.00\nGRAND\npaid\nItems:2\nPay Mode:Cash\nThank you,visit again!"
+}

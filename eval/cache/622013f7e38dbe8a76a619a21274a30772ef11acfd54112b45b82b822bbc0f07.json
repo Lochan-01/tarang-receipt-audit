@@ -1,0 +1,27 @@
+{
+  "vendor": "Speedlink Couriers",
+  "receipt_date": "2026-06-13",
+  "receipt_number": "",
+  "gstin": "27HJXCW9975D1ZJ",
+  "total_amount": 330.4,
+  "subtotal": null,
+  "tax": 45.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.85,
+    "receipt_date": 0.6,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SPEEDLINKCOURIERS\nGandhibagh,Nagpur\nGSTIN:27HJXCW9975D1ZJ\nBOOKING RECEIPT\nNo\nAWB\n\uff1aSL92216340\nDate\n13-06-202612:58\nor1gin\nNAGPUR\nDest\nRAIPUR\nwt:2.000kg\nPcs:\nMode\n:SURFACE\nTarang Pharma Ho Mumbai\nConsignee:\n280.00\nFreight\n50.40\nGST@18%\n330.40\nTOTAL RS\nlunchwz.pr..Woohorao\nNot responsible for prohibited items"
+}

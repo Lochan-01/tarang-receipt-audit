@@ -1,0 +1,27 @@
+{
+  "vendor": "Highway King Dhaba",
+  "receipt_date": "2026-07-23",
+  "receipt_number": "1377",
+  "gstin": "",
+  "total_amount": 235.0,
+  "subtotal": null,
+  "tax": null,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 1.0,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "HIGHWAYKINGDHABA\nNagpurRoad,Wardha\nPureVeg&Non-VegFamilySection\nDate\n23/7/2026\nBill No.1377\nAmount\nParticulars\n50\nILassi\n1Egg curry\n140\n45\n3Roti\n235\nTotal Rs.\nThankYouVisitAgain"
+}

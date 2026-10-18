@@ -212,26 +212,61 @@ class LocalOCRExtractor:
         rate = None
         volume = None
 
-        total_keywords = r'(?i)\b(grand\s*total|total\s*\(?inr\)?|total\s*rs\.?|amount\s*rs\.?|net\s*amount|total)\b'
+        grand_total_kw = r'(?i)\b(grand\s*total|total\s*\(?inr\)?|total\s*rs\.?|net\s*amount)\b'
+        plain_total_kw = r'(?i)\b(total)\b'
 
-        # 1. Scan for keyword and value on same line or next line
-        for idx, line in enumerate(lines):
-            m_kw = re.search(total_keywords, line)
-            if m_kw:
-                # check same line first
-                after_kw = line[m_kw.end():].strip()
-                val = parse_indian_amount(after_kw)
-                if val is not None and val > 0:
-                    total_amt = val
+        # Pass 1: explicit grand total / total rs (bottom up)
+        for idx in range(len(lines) - 1, -1, -1):
+            line = lines[idx]
+            if re.search(r'(?i)\b(sub\s*total|taxable)\b', line):
+                continue
+            m = re.search(grand_total_kw, line)
+            if m:
+                # same line
+                after = line[m.end():].strip()
+                v = parse_indian_amount(after)
+                if v and v > 0:
+                    total_amt = v
                     conf = 0.95
-                elif idx + 1 < len(lines):
-                    # check next line
-                    next_val = parse_indian_amount(lines[idx + 1])
-                    if next_val is not None and next_val > 0:
-                        total_amt = next_val
-                        conf = 0.95
+                    break
+                # window search around keyword
+                for off in [1, 2, 3, -1, -2]:
+                    target_idx = idx + off
+                    if 0 <= target_idx < len(lines):
+                        v = parse_indian_amount(lines[target_idx])
+                        if v and v > 0:
+                            total_amt = v
+                            conf = 0.95
+                            break
+                if total_amt > 0:
+                    break
 
-        # Also check subtotal / tax / rate / volume
+        # Pass 2: plain total keyword (bottom up)
+        if total_amt == 0.0:
+            for idx in range(len(lines) - 1, -1, -1):
+                line = lines[idx]
+                if re.search(r'(?i)\b(sub\s*total|taxable)\b', line):
+                    continue
+                m = re.search(plain_total_kw, line)
+                if m:
+                    after = line[m.end():].strip()
+                    v = parse_indian_amount(after)
+                    if v and v > 0:
+                        total_amt = v
+                        conf = 0.90
+                        break
+                    for off in [1, 2, 3, -1, -2]:
+                        target_idx = idx + off
+                        if 0 <= target_idx < len(lines):
+                            v = parse_indian_amount(lines[target_idx])
+                            if v and v > 0:
+                                total_amt = v
+                                conf = 0.90
+                                break
+                    if total_amt > 0:
+                        break
+
+        # Also extract subtotal / tax / rate / volume
         for idx, line in enumerate(lines):
             if re.search(r'(?i)\b(sub\s*total|taxable)', line):
                 m = re.search(r'([0-9,]+\.?[0-9]*)', line)
@@ -255,7 +290,6 @@ class LocalOCRExtractor:
                     rate = parse_indian_amount(lines[idx + 1])
 
             if re.search(r'(?i)\bvolume\b', line):
-                # Search up to 2 lines ahead for volume number (skipping '(L)' or units)
                 for offset in range(1, 3):
                     if idx + offset < len(lines):
                         cand_v = parse_indian_amount(lines[idx + offset])

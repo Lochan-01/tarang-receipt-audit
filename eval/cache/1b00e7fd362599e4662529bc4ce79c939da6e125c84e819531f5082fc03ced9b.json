@@ -1,0 +1,27 @@
+{
+  "vendor": "Speedlink Couriers",
+  "receipt_date": "2026-07-15",
+  "receipt_number": "",
+  "gstin": "27HJXCW9975D1ZJ",
+  "total_amount": 339.84,
+  "subtotal": null,
+  "tax": 45.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.6,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "SPEEDLINKCOURIERS\nGandhibagh,Nagpur\nGSTIN:27HJXCW9975D1ZJ\nBOOKING RECEIPT\nAWB No\n\uff1aSL13276215\nDate\n\uff1a15-07-202615:37\nOrigin\nNAGPUR\nDest\n:JABALPUR\nPcs:1\nwt:1.000kg\nMode\n: AIR\nConsignee:\nDr.P.Iyer\nFreight\n288.00\n51.84\nGST@18%\nTOTAL RS\n339.84\nTrack:www.track-shipment.in\nNot responsible for prohibited items"
+}

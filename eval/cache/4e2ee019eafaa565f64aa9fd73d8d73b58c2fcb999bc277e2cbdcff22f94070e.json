@@ -1,0 +1,31 @@
+{
+  "vendor": "Ashirwad Veg Restaurant",
+  "receipt_date": "2026-07-19",
+  "receipt_number": "6380",
+  "gstin": "270ILF01994Z2ZV",
+  "total_amount": 536.0,
+  "subtotal": 12.75,
+  "tax": 275.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.3,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "GSTIN validation issue: Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (12.75) + tax (275.0) = 287.75 != total (536.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Format does not match standard Indian GSTIN syntax",
+    "Tax arithmetic mismatch: subtotal (12.75) + tax (275.0) = 287.75 != total (536.0)"
+  ],
+  "raw_text": "ASHIRWADVEGRESTAURANT\nRamdaspeth,Nagpur\nPh:0712-2443745\nGSTIN:270ILF01994Z2ZV\nTAX INVOICE\nTable:8\n9:19PM\nBill No:6380\nDate:19.07.2026\nSteward:Kiran\nAmount\nQty\nItem\n100.00\n110.00\nTea\n300.00\nSandwich\nKaju Curry\n510.00\n12.75\nSub Total\n12.75\n+0.50\nCGST @2.5%\nSGST@2.5%\nRound Off\n536.00\nRS\nTOTAL\nGRAND\nPay Mode: UPI\nItems:3\nThank you, visit again!"
+}

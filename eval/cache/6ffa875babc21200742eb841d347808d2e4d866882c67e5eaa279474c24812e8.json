@@ -1,0 +1,29 @@
+{
+  "vendor": "Shivam Family Restaurant",
+  "receipt_date": "2026-07-26",
+  "receipt_number": "",
+  "gstin": "27XMECH9812R2ZH",
+  "total_amount": 357.0,
+  "subtotal": 40.0,
+  "tax": 32.0,
+  "rate": null,
+  "volume": null,
+  "vehicle_no": null,
+  "confidences": {
+    "vendor": 0.99,
+    "receipt_date": 0.95,
+    "receipt_number": 0.2,
+    "gstin": 0.99,
+    "total_amount": 0.4
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Tax arithmetic mismatch: subtotal (40.0) + tax (32.0) = 72.00 != total (357.0)",
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.",
+    "Tax arithmetic mismatch: subtotal (40.0) + tax (32.0) = 72.00 != total (357.0)"
+  ],
+  "raw_text": "SHIVAM FAMILYRESTAURANT\nSitabuldi,Nagpur\nPh:0712-2293041\nGSTIN:27XMECH9812R2ZH\nTAX INVOICE\nB111 No:3036\nDate:2026-07-26\nSteward:Manoj\nTable:5\n2:22PM\nItem\nQty\nKaju Curry\nAmount\nChaas\n300.00\nSub Total\n40.00\nCGST@2.5%\nSGST@2.5%\n340.00\nRound off\n8.50\n8.50\nGRAND\n+0.00\nTOTAL\n357.00"
+}

@@ -47,6 +47,14 @@ class ImageResolver:
         if not raw_input or not isinstance(raw_input, str) or not raw_input.strip():
             return None, "No image filename provided"
 
+        # 0. Check if direct file path exists
+        try:
+            direct_p = Path(raw_input)
+            if direct_p.is_file():
+                return direct_p, None
+        except Exception:
+            pass
+
         # 1. Clean path (handle windows & posix slashes)
         clean = os.path.basename(raw_input.replace('\\', '/').strip()).lower()
 
