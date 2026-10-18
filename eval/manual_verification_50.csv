@@ -1,0 +1,51 @@
+claim_id,emp_id,category,claimed_amount,model_amount,clerk_amount,model_vendor,clerk_vendor,model_decision,clerk_status,is_clerk_error,notes
+CLM-30803,TPD-0418,Fuel,403.72,403.72,403.72,Om Sai Fuel Point,Om Sai Fuel Point,review,approved,False,
+CLM-30811,TPD-0503,Food,660,0.0,662.0,Annapurna Dining Hall,Dining Annapurna Hall,review,approved,False,
+CLM-30814,TPD-0447,Food,Rs 270,270.0,279.0,Highway King Dhaba,Highway King Dhaba,approve,approved,False,
+CLM-30815,TPD-0436,Local travel,1080,10807.0,1080.0,Shree Ganesh Tours & Travels,Shree Ganesh Tours & Travels,review,approved,True,"Amount diff: Model read 10807.0, Clerk typed 1080.0"
+CLM-30827,TPD-0484,Food,436,436.0,436.0,Hotel Saibaba Bhojnalaya,Saibaba Hotel Bhojnalaya,review,approved,False,
+CLM-30829,TPD-0388,Food,888.00,11.0,388.0,Ashirwad Veg Restaurant,Ashirwad Veg Restaurant,review,approved,True,"Amount diff: Model read 11.0, Clerk typed 388.0"
+CLM-30833,TPD-0436,Food,200,200.0,200.0,Hotel Rajdhani Dhaba,Hotel Rajdhani Dhaba,approve,approved,False,
+CLM-30837,TPD-0459,Local travel,"1,130.00",1130.0,1130.0,Maa Durga Cab Service,Maa Durga Cab Service,approve,approved,False,
+CLM-30846,TPD-0431,Food,620.00,620.0,620.0,Ashirwad Veg Restaurant,Ashirwad Veg Restaurant,review,approved,False,
+CLM-30851,TPD-0497,Food,430,430.0,430.0,Hotel Pradeep Pure Veg,Hotel Pradeep Pre Veg,review,approved,False,
+CLM-30854,TPD-0418,Food,380,360.0,360.0,Hotel Rajdhani Dhaba,Hotel Rajdhani Dhaba,review,approved,False,
+CLM-30865,TPD-0423,Food,80.00,8.0,80.0,Tadka Punjabi Dhaba,PUNJABI TADKA DHABA,review,approved,True,"Amount diff: Model read 8.0, Clerk typed 80.0"
+CLM-30871,TPD-0478,Courier,141.6,141.6,141.6,Prompt Parcel Services,Prompt Parcel Services,approve,approved,False,
+CLM-30872,TPD-0431,Parking,30.00,30.0,30.0,Sitabuldi Multilevel Parking,Sitabuldi Multilevel Parking,approve,approved,False,
+CLM-30874,TPD-0497,Parking,30.00,30.0,30.0,Sitabuldi Multilevel Parking,Sitabuldi Multillevel Parking,approve,approved,False,
+CLM-30879,TPD-0471,Food,388.00,388.0,388.0,Ashirwad Veg Restaurant,Ashirwad Veg Restaurant,approve,approved,False,
+CLM-30883,TPD-0484,Courier,141.6,141.6,141.6,Prompt Parcel Services,prrompt parcel services,approve,approved,False,
+CLM-30887,TPD-0490,Courier,141.6,0.0,0.0,,,review,queried,False,Non-approved: Status queried (bill not attached)
+CLM-30906,TPD-0412,Food,Rs. 630,630.0,630.0,Ashirwad Veg Restaurant,Ashirwad Veg Restaurant,review,approved,False,
+CLM-30910,TPD-0418,Local travel,"1,550.00",88.0,1550.0,Shree Ganesh Tours & Travels,Shree Ganesh Tours & Travels,review,approved,True,"Amount diff: Model read 88.0, Clerk typed 1550.0"
+CLM-30913,TPD-0452,Local travel,Rs. 290,0.0,290.0,Royal Travels,Royal Travels,review,approved,False,
+CLM-30920,TPD-0478,Fuel,482.58,482.58,482.58,New Highway Service Station,New Highway Service Station,review,approved,False,
+CLM-30934,TPD-0447,Local travel,"1,520.00",10207.0,1020.0,Royal Travels,ROYAL TRAVELS,review,approved,True,"Amount diff: Model read 10207.0, Clerk typed 1020.0"
+CLM-30937,TPD-0412,Courier,212.40,32.4,212.4,Vidarbha Express Courier,Vidarbha Express Courier,review,approved,True,"Amount diff: Model read 32.4, Clerk typed 212.4"
+CLM-30947,TPD-0497,Fuel,300,300.0,300.0,Shree Sai Petroleum,Shhree Sai Petroleum,review,approved,False,
+CLM-30950,TPD-0423,Fuel,500.00,500.0,500.0,Shree Sai Petroleum,Shree Sai Petroleum,approve,approved,False,
+CLM-30971,TPD-0497,Local travel,"Rs. 1,280",0.0,1280.0,Shree Ganesh Tours & Travels,Shree Ganesh Tours & Travels,review,approved,False,
+CLM-30982,TPD-0423,Food,Rs 1102,1102.0,1102.0,Ashirwad Veg Restaurant,Ashirwad Veg Restaurant,review,approved,False,
+CLM-30985,TPD-0497,Food,346.00,0.0,346.0,Spice Route Kitchen,Route Spice Kitchen,review,approved,False,
+CLM-30996,TPD-0503,Local travel,Rs 370,370.0,370.0,Shree Ganesh Tours & Travels,Shree Ganesh Tours & Travels - Wardha,approve,approved,False,
+CLM-31004,TPD-0490,Lodging,2016,2016.0,2016.0,Hotel Krishna Comforts,HOTEL KRISHNA COMFORTS,review,approved,False,
+CLM-31009,TPD-0452,Fuel,1536.01,1536.01,1536.01,Laxmi Auto Fuels,Laxmi Auto Fuels,review,rejected,False,Non-approved: Status rejected (bill looks overwritten)
+CLM-31011,TPD-0497,Food,Rs 130,130.0,130.0,Punjabi Tadka Dhaba,Punjabi Tadka Dhaba,approve,approved,False,
+CLM-31015,TPD-0447,Lodging,Rs 4704,2100.0,4704.0,Hotel Shubham Residency,HOTEL SHUBHAM RESIDENCY,review,approved,True,"Amount diff: Model read 2100.0, Clerk typed 4704.0"
+CLM-31019,TPD-0388,Food,Rs 304,304.0,304.0,Shivam Family Restaurant,Family Shivam Restaurant,review,approved,False,
+CLM-31022,TPD-0388,Local travel,"1,130.00",30.0,1130.0,Shree Ganesh Tours & Travels,Shree Ganesh Tours & Travels,review,approved,True,"Amount diff: Model read 30.0, Clerk typed 1130.0"
+CLM-31034,TPD-0418,Food,756,756.0,756.0,Hotel Pradeep Pure Veg,Hotel Pradeep Pure Veg,review,approved,False,
+CLM-31038,TPD-0497,Food,"1,113.00",1113.0,1113.0,Spice Route Kitchen,Spice Route Kitchen,review,approved,False,
+CLM-31042,TPD-0452,Food,330.00,326.0,326.0,Annapurna Dining Hall,Dining Annapurna Hall,approve,approved,False,
+CLM-31045,TPD-0459,Food,110,80.0,110.0,Punjabi Tadka Dhaba,Punjabi Tadka Dhaba,review,approved,True,"Amount diff: Model read 80.0, Clerk typed 110.0"
+CLM-31049,TPD-0452,Food,Rs. 190,190.0,200.0,Highway King Dhaba,Highway KKing Dhaba,approve,approved,False,
+CLM-31053,TPD-0447,Local travel,260,260.0,260.0,Royal Travels,Royal Travels,approve,approved,False,
+CLM-31055,TPD-0388,Local travel,900,0.0,900.0,Shree Ganesh Tours & Travels,SHREE GANESH TOURS & TRAVELS,review,approved,False,
+CLM-31056,TPD-0447,Courier,339.84,339.84,339.84,Speedlink Couriers,SpeedLink Couriers,approve,approved,False,
+CLM-31063,TPD-0459,Food,325.00,325.0,325.0,Hotel Rajdhani Dhaba,Hotel Rajdhani Dhaba,approve,approved,False,
+CLM-31066,TPD-0503,Courier,226.56,226.56,226.56,Vidarbha Express Courier,Express Vidarbha Courier,approve,approved,False,
+CLM-31069,TPD-0471,Fuel,500.00,500.0,500.0,New Highway Service Station,New Highway Service Station,review,approved,False,
+CLM-31072,TPD-0503,Courier,Rs. 330,330.4,330.4,Prompt Parcel Services,prompt parcel services,approve,approved,False,
+CLM-31075,TPD-0471,Fuel,Rs. 487,486.75,486.75,New Highway Service Station,New Highway Service Station,approve,approved,False,
+CLM-31079,TPD-0412,Courier,448.40,448.4,448.4,Vidarbha Express Courier,Vidarbha Express Courier,approve,rejected,False,Non-approved: Status rejected (same bill as CLM-30679)
