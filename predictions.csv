@@ -1,0 +1,191 @@
+claim_id,vendor,receipt_date,receipt_number,gstin,total_amount,decision,reason
+CLM-31086,New Highway Service Station,2026-07-18,002229,,300.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31087,Green Leaf Restaurant,2026-07-16,REC-31087,27YUFFZ9311K2ZV,304.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31088,Highway King Dhaba,2026-07-11,1341,,260.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31090,Hotel Rajdhani Dhaba,2026-07-14,3509,,220.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31091,Sai Ram Tea & Snacks,2026-07-13,6928,,405.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31094,Durga Maa Cab Service,2026-07-10,REC-31094,,10.00,review,Amount mismatch: claimed Rs 250.00 vs bill Rs 10.00 (diff > Rs 10)
+CLM-31095,Express Vidarbha Courier,2026-07-15,VX81712845,270UUFX7743H2ZR,330.40,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31096,New Highway Service Station,2026-07-12,001846,,668.11,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.23 * 668.11 = 69637.11 != total (668.11)
+CLM-31097,Laxmi Auto Fuels,2026-07-12,004478,27DPAFU4120X1ZM,400.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.69 * 400.0 = 41876.00 != total (400.0)
+CLM-31098,Hotel Pradeep Pure Veg,2026-07-12,REC-31098,27ODUFJ1789K3ZU,730.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31102,Shivam Family Restaurant,2026-07-20,REC-31102,,452.00,review,Could not read bill amount from receipt photo
+CLM-31105,Annapurna Dining Hall,2026-07-16,REC-31105,27GIZFL1093Q2ZK,567.00,review,"Bill arithmetic discrepancy: GSTIN validation issue: GSTIN checksum mismatch (expected 'C', found 'K')"
+CLM-31106,Green Leaf Restaurant,2026-07-19,REC-31106,27YUFFZ9311K2ZV,494.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31107,Prompt Parcel Services,2026-07-12,REC-31107,27IRWFN4293M2Z1,50.40,review,Amount mismatch: claimed Rs 330.40 vs bill Rs 50.40 (diff > Rs 10)
+CLM-31110,Prompt Parcel Services,2026-07-12,PP52882767,27IRWFN4293M2Z1,141.60,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31111,Sitabuldi Multilevel Parking,2026-07-16,115811,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31112,Sitabuldi Multilevel Parking,2026-07-14,115488,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31115,Jai Ambe Fuels,2026-07-21,001486,,511.67,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.85 * 511.67 = 53648.60 != total (511.67)
+CLM-31118,Om Sai Fuel Point,2026-07-14,003418,,283.44,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.59 * 283.44 = 29644.99 != total (283.44)
+CLM-31120,Om Sai Fuel Point,2026-06-24,002691,,300.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.59 * 300.0 = 31377.00 != total (300.0)
+CLM-31122,Laxmi Auto Fuels,2026-06-22,003752,27DPAFU4120X1ZM,200.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.69 * 200.0 = 20938.00 != total (200.0)
+CLM-31123,Cafe Coffee Corner,2026-07-14,A/1453,27TABPX3765R2Z6,250.00,review,Could not read bill amount from receipt photo
+CLM-31126,Shivam Family Restaurant,2026-07-14,2971,27XMECH9812R2ZH,210.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (5.0) + tax (32.0) = 37.00 != total (210.0)
+CLM-31130,Hotel Pradeep Pure Veg,2026-07-12,1379,27ODUFJ1789K3ZU,982.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (23.38) + tax (275.0) = 298.38 != total (982.0)
+CLM-31132,Om Sai Fuel Point,2026-07-20,003651,,150.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.59 * 150.0 = 15688.50 != total (150.0)
+CLM-31133,Shree Sai Petroleum,2026-07-17,17-07-2826,,300.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31137,Spice Route Kitchen,2026-07-15,REC-31137,27NCRPN1784A3Z1,399.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (380.0) + tax (32.0) = 412.00 != total (399.0)
+CLM-31140,Ashirwad Veg Restaurant,2026-07-21,6423,270ILF01994Z2ZV,40.00,review,Amount mismatch: claimed Rs 294.00 vs bill Rs 40.00 (diff > Rs 10)
+CLM-31142,Hotel Rajdhani Dhaba,2026-07-15,3532,,350.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31146,Shree Ganesh Tours & Travels,2026-07-17,3916,,470.00,review,Could not read bill amount from receipt photo
+CLM-31148,Hotel Shubham Residency,2026-07-15,REC-31148,,2352.00,review,Lodging policy violation: bill lacks required GST tax invoice / GSTIN
+CLM-31152,Medical Square Pay & Park,2026-07-13,REC-31152,,20.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31156,New Highway Service Station,2026-07-14,001991,,313.73,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.23 * 313.73 = 32700.08 != total (313.73)
+CLM-31158,Ashirwad Veg Restaurant,2026-07-14,Total,2701LF01994Z2ZV,14.07,review,Amount mismatch: claimed Rs 430.00 vs bill Rs 14.07 (diff > Rs 10)
+CLM-31160,Speedlink Couriers,2026-07-15,REC-31160,27HJXCW9975D1ZJ,339.84,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31161,Hotel Shubham Residency,2026-07-14,HSR/26-27/4915,27UVQFW9408Y1ZS,2352.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (2.1) + tax (12.0) = 14.10 != total (2352.0)
+CLM-31164,Shree Sai Petroleum,2026-07-21,807635,,300.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 10.64 * 2.87 = 30.54 != total (300.0)
+CLM-31168,Gajanan Petroleum,2026-07-23,009209,,500.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.44 * 500.0 = 52220.00 != total (500.0)
+CLM-31170,Spice Route Kitchen,2026-07-15,REC-31170,27NCRPN1784A3Z1,4.25,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (80.0) + tax (32.0) = 112.00 != total (4.25)
+CLM-31171,Hotel Rajdhani Dhaba,2026-07-18,3543,,2.00,review,Amount mismatch: claimed Rs 190.00 vs bill Rs 2.00 (diff > Rs 10)
+CLM-31173,Sai Ram Tea & Snacks,2026-07-19,6940,,330.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31176,Sai Ram Tea & Snacks,2026-07-02,6896,,190.00,review,Duplicate bill: Sai Ram Tea & Snacks bill #6896 already claimed in CLM-30572
+CLM-31178,Shree Ganesh Tours & Travels,2026-07-20,3928,,540.00,review,Could not read bill amount from receipt photo
+CLM-31182,Royal Travels,2026-07-20,8485,,360.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31185,Prompt Parcel Services,2026-07-23,REC-31185,27IRWFN4293M2Z1,141.60,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31188,Hotel Krishna Comforts,2026-07-15,HKC/26-27/5295,27HPFCA5856Y3ZE,4032.00,review,"Lodging amount (Rs 4,032.00) requires clerk review for M1 nightly limit (Rs 3,000)"
+CLM-31190,om sai fuel point,2026-07-25,REC-31190,,400.00,review,Bill photo missing from upload; cannot verify claim
+CLM-31191,Shree Sai Petroleum,2026-07-20,007482,,308.69,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.64 * 308.69 = 32301.32 != total (308.69)
+CLM-31192,Spice Route Kitchen,2026-07-22,6423,27NCRPN1784A3Z1,1200.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (4.75) + tax (32.0) = 36.75 != total (1200.0)
+CLM-31195,Prompt Parcel Services,2026-07-16,PP67136855,27IRWFN4293M2Z1,50.40,review,Amount mismatch: claimed Rs 330.00 vs bill Rs 50.40 (diff > Rs 10)
+CLM-31197,Om Sai Fuel Point,2026-07-18,003508,,291.81,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.59 * 291.81 = 30520.41 != total (291.81)
+CLM-31201,Ashirwad Veg Restaurant,2026-07-19,6380,270ILF01994Z2ZV,536.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (12.75) + tax (275.0) = 287.75 != total (536.0)
+CLM-31203,Hotel Rajdhani Dhaba,2026-07-22,REC-31203,,1180.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31204,Speedlink Couriers,2026-06-28,SL26816175,27HJXCW9975D1ZJ,330.40,review,Duplicate bill: Speedlink Couriers bill #SL26816175 already claimed in CLM-30703
+CLM-31206,New Highway Service Station,2026-07-22,002362,,100.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.23 * 100.0 = 10423.00 != total (100.0)
+CLM-31207,Annapurna Dining Hall,2026-07-27,REC-31207,27GIZFL1093Q2ZK,2194.00,review,"Bill arithmetic discrepancy: GSTIN validation issue: GSTIN checksum mismatch (expected 'C', found 'K')"
+CLM-31209,Highway King Dhaba,2026-07-24,1394,,480.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31211,Highway King Dhaba,2026-07-19,1359,,185.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31214,Sai Ram Tea & Snacks,2026-07-21,6946,,100.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31217,Shree Ganesh Tours & Travels,2026-07-25,3998,,660.00,review,Could not read bill amount from receipt photo
+CLM-31221,Prompt Parcel Services,2026-07-24,REC-31221,27IRWFN4293M2Z1,330.40,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31222,Sitabuldi Multilevel Parking,2026-07-23,116051,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31225,Om Sai Fuel Point,2026-07-21,003760,,606.62,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31228,Om Sai Fuel Point,2026-07-28,884302,,300.00,review,"Fuel vehicle mismatch: bill has MH31 DX 8981, employee vehicle is MH31 DX 0981"
+CLM-31230,Om Sai Fuel Point,2026-07-27,004185,,150.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.59 * 150.0 = 15688.50 != total (150.0)
+CLM-31233,Annapurna Dining Hall,2026-07-20,REC-31233,27GIZFL1093Q2ZK,11.00,review,Amount mismatch: claimed Rs 462.00 vs bill Rs 11.00 (diff > Rs 10)
+CLM-31236,Annapurna Dining Hall,2026-07-27,A/1689,27GIZFL1093Q2ZK,483.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (11.5) + tax (32.0) = 43.50 != total (483.0)
+CLM-31240,Cafe Coffee Corner,2026-07-25,A/1508,27TABPX3765R2Z6,425.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (10.12) + tax (32.0) = 42.12 != total (425.0)
+CLM-31243,Shree Ganesh Tours & Travels,2026-07-27,4043,,790.00,review,Could not read bill amount from receipt photo
+CLM-31244,Shree Ganesh Tours & Travels,2026-07-23,REC-31244,,23.00,review,"Amount mismatch: claimed Rs 1,100.00 vs bill Rs 23.00 (diff > Rs 10)"
+CLM-31247,Vidarbha Express Courier,2026-07-24,REC-31247,27OUUFX7743H2ZR,50.40,review,Amount mismatch: claimed Rs 330.40 vs bill Rs 50.40 (diff > Rs 10)
+CLM-31249,Vidarbha Express Courier,2026-07-19,VX21608808,27OUUFX7743H2ZR,141.60,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31251,Speedlink Couriers,2026-07-28,REC-31251,27HJXCW9975D1ZJ,141.60,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31255,Sitabuldi Multilevel Parking,2026-07-24,REC-31255,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31256,Sitabuldi Multilevel Parking,2026-07-24,116520,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31258,Jai Ambe Fuels,2026-07-23,001556,,500.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.85 * 500.0 = 52425.00 != total (500.0)
+CLM-31261,Shree Sai Petroleum,2026-07-29,007878,,606.91,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.64 * 606.91 = 63507.06 != total (606.91)
+CLM-31263,Om Sai Fuel Point,2026-07-21,003689,,200.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.59 * 200.0 = 20918.00 != total (200.0)
+CLM-31265,Gajanan Petroleum,2026-07-22,009169,,300.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.44 * 300.0 = 31332.00 != total (300.0)
+CLM-31266,Om Sai Fuel Point,2026-06-13,002123,,300.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.59 * 300.0 = 31377.00 != total (300.0)
+CLM-31270,Jai Ambe Fuels,2026-07-26,001600,,200.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.85 * 200.0 = 20970.00 != total (200.0)
+CLM-31272,Spice Route Kitchen,2026-07-22,REC-31272,27NCRPN1784A3Z1,331.00,review,Could not read bill amount from receipt photo
+CLM-31274,Hotel Pradeep Pure Veg,2026-07-27,1581,27ODUFJ1789K3ZU,693.00,review,Could not read bill amount from receipt photo
+CLM-31275,Shivam Family Restaurant,2026-07-20,3006,27XMECH9812R2ZH,452.00,review,Could not read bill amount from receipt photo
+CLM-31279,Shivam Family Restaurant,2026-07-26,REC-31279,27XMECH9812R2ZH,357.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (40.0) + tax (32.0) = 72.00 != total (357.0)
+CLM-31280,sai ramt ea & snacks,2026-07-29,REC-31280,,330.00,review,Bill photo missing from upload; cannot verify claim
+CLM-31284,Hotel Krishna Comforts,2026-07-23,HKC/26-27/5301,27HPFCA5856Y3ZE,2016.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (1800.0) + tax (7184.0) = 8984.00 != total (2016.0)
+CLM-31288,Hotel Gulmohar Executive,2026-07-28,HGE/26-2717519,27PMLCE5129S3ZO,2352.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (2.1) + tax (12.0) = 14.10 != total (2352.0)
+CLM-31292,Jai Ambe Fuels,2026-07-29,e81654,,250.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 1.0 * 25.0 = 25.00 != total (250.0)
+CLM-31294,Om Sai Fuel Point,2026-07-22,003881,,542.82,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.59 * 542.82 = 56773.54 != total (542.82)
+CLM-31296,Shree Sai Petroleum,2026-07-21,007682,,200.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.64 * 200.0 = 20928.00 != total (200.0)
+CLM-31298,Spice Route Kitchen,2026-07-24,6440,27NCRPN1784A3Z1,430.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (10.25) + tax (32.0) = 42.25 != total (430.0)
+CLM-31299,Ashirwad Veg Restaurant,2026-07-23,REC-31299,270ILF01994Z2ZV,1472.00,review,Could not read bill amount from receipt photo
+CLM-31301,Hotel Pradeep Pure Veg,2026-07-24,REC-31301,27ODUFJ1789K3ZU,735.00,review,Could not read bill amount from receipt photo
+CLM-31305,Royal Travels,2026-07-30,8506,,3807.00,review,"Amount mismatch: claimed Rs 380.00 vs bill Rs 3,807.00 (diff > Rs 10)"
+CLM-31308,Royal Travels,2026-07-25,8501,,480.00,review,Could not read bill amount from receipt photo
+CLM-31310,Shree Ganesh Tours & Travels,2026-07-23,3950,,11707.00,review,"Amount mismatch: claimed Rs 1,170.00 vs bill Rs 11,707.00 (diff > Rs 10)"
+CLM-31311,Hotel Gulmohar Executive,2026-07-23,HGE/26-27/7514,27PMLCE5129S3ZO,2352.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (126.0) + tax (12.0) = 138.00 != total (2352.0)
+CLM-31314,Sitabuldi Multilevel Parking,2026-07-29,118129,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31315,Laxmi Auto Fuels,2026-07-31,004980,27DPAFU4120X1ZM,200.00,review,Amount mismatch: claimed Rs 20.00 vs bill Rs 200.00 (diff > Rs 10)
+CLM-31317,Ashirwad Veg Restaurant,2026-07-24,REC-31317,2701LF01994Z2ZV,2268.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (2160.0) + tax (2706.0) = 4866.00 != total (2268.0)
+CLM-31321,Hotel Pradeep Pure Veg,2026-07-27,REC-31321,27ODUFJ1789K3ZU,808.00,review,Could not read bill amount from receipt photo
+CLM-31324,Hotel Saibaba Bhojnalaya,2026-07-29,6627,27MTSPF4455T1ZB,998.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (950.0) + tax (32.0) = 982.00 != total (998.0)
+CLM-31328,Highway King Dhaba,2026-07-23,1377,,235.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31329,Shree Ganesh Tours & Travels,2026-07-25,4011,,740.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31331,Maa Durga Cab Service,2026-06-14,8219,,1230.00,review,Could not read bill amount from receipt photo
+CLM-31333,Om Sai Fuel Point,2026-08-01,004744,,4744.00,review,"Amount mismatch: claimed Rs 100.00 vs bill Rs 4,744.00 (diff > Rs 10)"
+CLM-31335,Om Sai Fuel Point,2026-08-01,004585,,1313.77,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.59 * 313.77 = 32817.20 != total (1313.77)
+CLM-31336,Om Sai Fuel Point,2026-07-26,004104,,2607.43,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.59 * 2607.43 = 272711.10 != total (2607.43)
+CLM-31339,Laxmi Auto Fuels,2026-07-29,004802,27DPAFU4120X1ZM,200.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.69 * 200.0 = 20938.00 != total (200.0)
+CLM-31340,Green Leaf Restaurant,2026-07-24,REC-31340,27YUFFZ9311K2ZV,420.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (10.0) + tax (32.0) = 42.00 != total (420.0)
+CLM-31341,Ashirwad Veg Restaurant,2026-07-26,6535,270ILF01994Z2ZV,840.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31344,Highway King Dhaba,2026-07-28,1399,,315.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31347,Hotel Rajdhani Dhaba,2026-08-01,3554,,8.00,review,Amount mismatch: claimed Rs 270.00 vs bill Rs 8.00 (diff > Rs 10)
+CLM-31351,Shree Ganesh Tours & Travels,2026-07-29,4067,,930.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31352,Prompt Parcel Services,2026-07-23,REC-31352,27IRWFN4293M2Z1,141.60,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31356,Sitabuldi Multilevel Parking,2026-07-30,REC-31356,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31359,Medical Square Pay & Park,2026-08-01,105547,,20.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31361,Shree Sai Petroleum,2026-07-24,007720,,250.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.64 * 250.0 = 26160.00 != total (250.0)
+CLM-31362,Laxmi Auto Fuels,2026-07-27,004694,27DPAFU4120X1ZM,200.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.69 * 200.0 = 20938.00 != total (200.0)
+CLM-31363,Hotel Shirdi Saibaba Bhojnalaya Nagpur,2026-08-02,REC-31363,,525.00,review,Bill photo missing from upload; cannot verify claim
+CLM-31366,Highway King Dhaba,2026-06-09,REC-31366,,230.00,review,Amount mismatch: claimed Rs 270.00 vs bill Rs 230.00 (diff > Rs 10)
+CLM-31367,Vidarbha Express Courier,2026-07-30,VX79894828,27OUUFX7743H2ZR,141.60,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31368,Shirdi Sai Palace Lodge,2026-08-01,SPL/26-27/2364,27GFZCR8659B2Z4,3136.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (168.0) + tax (12.0) = 180.00 != total (3136.0)
+CLM-31369,Om Sai Fuel Point,2026-08-03,004810,,200.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31373,Om Sai Fuel Point,2026-07-29,004426,,150.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.59 * 150.0 = 15688.50 != total (150.0)
+CLM-31374,Hotel Saibaba Bhojnalaya,2026-08-03,6663,27MTSPF4455T1ZB,1092.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31378,Sai Ram Tea & Snacks,2026-07-25,6972,,60.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31382,Speedlink Couriers,2026-07-29,REC-31382,27HJXCW9975D1ZJ,141.60,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31386,Jai Ambe Fuels,2026-08-03,REC-31386,,250.00,review,Amount mismatch: claimed Rs 750.00 vs bill Rs 250.00 (diff > Rs 10)
+CLM-31387,Gajanan Petroleum,2026-07-28,009346,,150.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.44 * 150.0 = 15666.00 != total (150.0)
+CLM-31388,New Highway Service Station,2026-07-27,002436,,500.00,review,Could not read bill amount from receipt photo
+CLM-31391,Unknown Vendor,2026-08-04,REC-31391,,420.00,review,"Bill photo unreadable, pitch black, or out of focus"
+CLM-31392,Spice Route Kitchen,2026-07-31,6520,27NCRPN1784A3Z1,1124.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (26.75) + tax (32.0) = 58.75 != total (1124.0)
+CLM-31393,Cafe Coffee Corner,2026-07-31,REC-31393,27TABPX3765R2Z6,546.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (13.0) + tax (32.0) = 45.00 != total (546.0)
+CLM-31397,Punjabi Tadka Dhaba,2026-07-26,8332,,270.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31401,Shree Ganesh Tours & Travels,2026-07-26,4032,,1390.00,review,Could not read bill amount from receipt photo
+CLM-31402,Speedlink Couriers,2026-06-23,SL36715972,27HJXCW9975D1ZJ,330.40,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31405,Hotel Shubham Residency,2026-08-03,HSR/26-27/4944,27UVQFW9408Y1ZS,4704.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (252.0) + tax (12.0) = 264.00 != total (4704.0)
+CLM-31407,Sitabuldi Multilevel Parking,2026-07-31,118663,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31411,Medical Square Pay & Park,2026-08-02,106049,,20.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31412,New Highway Service Station,2026-07-27,002589,,300.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.23 * 300.0 = 31269.00 != total (300.0)
+CLM-31414,Gajanan Petroleum,2026-07-28,009395,,300.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31415,Laxmi Auto Fuels,2026-07-30,004852,27DPAFU4120X1ZM,500.00,review,"Bill arithmetic discrepancy: GSTIN validation issue: GSTIN checksum mismatch (expected 'E', found 'M')"
+CLM-31417,Ashirwad Veg Restaurant,2026-08-04,REC-31417,270ILFO1994Z2ZV,3.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (13.5) + tax (275.0) = 288.50 != total (3.0)
+CLM-31418,Annapurna Dining Hall,2026-06-12,REC-31418,27GIZFL1093Q2ZK,536.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31421,Sai Ram Tea & Snacks,2026-07-28,6997,,385.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31422,Hotel Krishna Comforts,2026-07-30,HKC/26-27/5329,27HPFCA5856Y3ZE,4032.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (3.6) + tax (12.0) = 15.60 != total (4032.0)
+CLM-31423,Sitabuldi Multilevel Parking,2026-07-28,117592,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31424,Multilevel Sitabuldi Parking Nagpur,2026-08-05,119915,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31428,Sitabuldi Multilevel Parking,2026-08-03,119554,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31429,Shree Sai Petroleum,2026-08-04,008014,,100.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.64 * 100.0 = 10464.00 != total (100.0)
+CLM-31430,Hotel Pradeep Pure Veg,2026-07-29,REC-31430,27ODUFJ1789K3ZU,220.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (30.0) + tax (275.0) = 305.00 != total (220.0)
+CLM-31432,Cafe Coffee Corner,2026-08-04,REC-31432,27TABPX3765R2Z6,588.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (14.0) + tax (32.0) = 46.00 != total (588.0)
+CLM-31433,Annapurna Dining Hall,2026-07-28,A/1796,27GIZFL1093Q2ZK,273.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31436,Shivam Family Restaurant,2026-07-31,3124,27XMECH9812R2ZH,756.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (18.0) + tax (32.0) = 50.00 != total (756.0)
+CLM-31438,Dining Annapurna Hall,2026-07-28,A/1882,27GIZFL1093Q2ZK,651.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31439,Sai Ram Tea & Snacks,2026-08-05,7012,,240.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31440,Highway King Dhaba,2026-08-02,1414,,245.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31444,Shree Sai Petroleum,2026-07-30,e87965,,250.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 184.64 * 25.0 = 4616.00 != total (250.0)
+CLM-31447,Om Sai Fuel Point,2026-07-30,004471,,300.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.59 * 300.0 = 31377.00 != total (300.0)
+CLM-31451,Jai Ambe Fuels,2026-08-04,001882,,200.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.85 * 200.0 = 20970.00 != total (200.0)
+CLM-31453,Gajanan Petroleum,2026-08-02,009440,,250.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.44 * 250.0 = 26110.00 != total (250.0)
+CLM-31454,New Highway Service Station,2026-08-05,002766,,400.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.23 * 400.0 = 41692.00 != total (400.0)
+CLM-31457,Om Sai Fuel Point,2026-08-05,004864,,400.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.59 * 400.0 = 41836.00 != total (400.0)
+CLM-31460,Laxmi Auto Fuels,2026-08-05,005049,27DPAFU4120X1ZM,500.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31461,New Highway Service Station,2026-07-31,002706,,300.00,review,Bill arithmetic discrepancy: Fuel math mismatch: 104.23 * 300.0 = 31269.00 != total (300.0)
+CLM-31465,Gajanan Petroleum,2026-08-04,009478,,400.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31469,Shree Sai Petroleum,2026-08-04,007993,,100.00,review,Could not read bill amount from receipt photo
+CLM-31473,Route Spice Kitchen,2026-08-03,6567,27NCRPN1784A3Z1,756.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (18.0) + tax (32.0) = 50.00 != total (756.0)
+CLM-31474,Cafe Coffee Corner,2026-08-05,A/1751,27TABPX3765R2Z6,0.50,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (220.0) + tax (32.0) = 252.00 != total (0.5)
+CLM-31475,Cafe Coffee Corner,2026-06-21,A/1406,27TABPX3765R2Z6,987.00,review,Duplicate bill: Cafe Coffee Corner bill #A/1406 already claimed in CLM-30664
+CLM-31478,Cafe Coffee Corner,2026-08-05,REC-31478,,1082.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31479,Cafe Coffee Corner,2026-08-03,REC-31479,27TABPX3765R2Z6,567.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (540.0) + tax (32.0) = 572.00 != total (567.0)
+CLM-31480,Hotel Pradeep Pure Veg,2026-07-24,REC-31480,27ODUFJ1789K3ZU,735.00,review,Could not read bill amount from receipt photo
+CLM-31483,Annapurna Dining Hall,2026-08-03,REC-31483,27GIZFL1093Q2ZK,798.00,review,Could not read bill amount from receipt photo
+CLM-31485,Punjabi Tadka Dhaba,2026-08-04,8379,,410.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31486,Punjabi Tadka Dhaba,2026-08-03,8354,,500.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31490,Hotel Rajdhani Dhaba,2026-07-30,3551,,370.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31494,Highway King Dhaba,2026-08-05,1433,,165.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31495,Maa Durga Cab Service,2026-08-03,8323,,706.00,review,Amount mismatch: claimed Rs 910.00 vs bill Rs 706.00 (diff > Rs 10)
+CLM-31497,Shree Ganesh Tours & Travels,2026-07-23,3950,,11707.00,review,"Amount mismatch: claimed Rs 1,170.00 vs bill Rs 11,707.00 (diff > Rs 10)"
+CLM-31501,Vidarbha Express Courier,2026-08-01,VX53559174,27OUUFX7743H2ZR,141.60,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31503,Vidarbha Express Courier,2026-08-04,REC-31503,27OUUFX7743H2ZR,1226.56,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31506,Speedlink Couriers,2026-08-02,REC-31506,27HJXCM9975012J,141.60,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31509,Shirdi Sai Palace Lodge,2026-08-01,SPL/26-27/2384,27GFZCR8659B2Z4,3.14,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (168.0) + tax (12.0) = 180.00 != total (3.14)
+CLM-31512,Hotel Krishna Comforts,2026-08-05,HKC/26-27/5346,27HPFCA5856Y3ZE,2016.00,review,Bill arithmetic discrepancy: Tax arithmetic mismatch: subtotal (108.0) + tax (12.0) = 120.00 != total (2016.0)
+CLM-31516,Sitabuldi Multilevel Parking,2026-08-01,119019,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31519,Sitabuldi Multilevel Parking,2026-08-05,121071,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
+CLM-31523,Sitabuldi Multilevel Parking,2026-08-05,120477,,30.00,approve,"Compliant receipt under Rs 2,000: vendor, date, and amount verified"
