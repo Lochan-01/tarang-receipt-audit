@@ -52,6 +52,16 @@ def parse_and_normalize_date(
                 return "", False, 0.1, f"Invalid calendar date: {raw_date}"
 
     # Check 3: DD-MM-YYYY or DD-MM-YY (Indian standard convention)
+    # Handle concatenated timestamp e.g. 22/06/202613:30
+    m_concat = re.search(r'(\d{1,2})[-/\.](\d{1,2})[-/\.](\d{4})\d{2}:\d{2}', clean)
+    if m_concat:
+        d, m, y = int(m_concat.group(1)), int(m_concat.group(2)), int(m_concat.group(3))
+        try:
+            dt = date(y, m, d)
+            return _validate_date_bounds(dt, submission_date_hint)
+        except ValueError:
+            pass
+
     m_dmy = re.match(r'^(\d{1,2})-(\d{1,2})-(\d{2,4})', clean)
     if m_dmy:
         d, m, y_raw = int(m_dmy.group(1)), int(m_dmy.group(2)), int(m_dmy.group(3))

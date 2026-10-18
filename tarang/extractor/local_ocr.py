@@ -189,7 +189,7 @@ class LocalOCRExtractor:
             # 2. Keyword alone on line, value on next line
             if re.search(r'(?i)\b(bill\s*no\.?|invoice\s*no\.?|receipt\s*no\.?|ticket\s*no\.?|awb\s*no\.?)\b', line):
                 if idx + 1 < len(lines):
-                    next_l = lines[idx + 1].strip()
+                    next_l = re.sub(r'^[:\s\-\.]+', '', lines[idx + 1].strip())
                     m_val = re.search(r'^([A-Za-z0-9\/\-_]+)$', next_l)
                     if m_val:
                         cand = m_val.group(1).strip()
@@ -255,11 +255,13 @@ class LocalOCRExtractor:
                     rate = parse_indian_amount(lines[idx + 1])
 
             if re.search(r'(?i)\bvolume\b', line):
-                m = re.search(r'([0-9,]+\.?[0-9]*)', line)
-                if m:
-                    volume = parse_indian_amount(m.group(1))
-                elif idx + 1 < len(lines):
-                    volume = parse_indian_amount(lines[idx + 1])
+                # Search up to 2 lines ahead for volume number (skipping '(L)' or units)
+                for offset in range(1, 3):
+                    if idx + offset < len(lines):
+                        cand_v = parse_indian_amount(lines[idx + offset])
+                        if cand_v is not None and cand_v > 0:
+                            volume = cand_v
+                            break
 
         # Fallback if no explicit TOTAL keyword was matched
         if total_amt == 0.0:
