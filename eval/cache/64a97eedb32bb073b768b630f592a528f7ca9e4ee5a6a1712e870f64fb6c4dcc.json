@@ -21,8 +21,6 @@
   "is_degraded": true,
   "tokens_used": 0,
   "cost_usd": 0.0,
-  "warnings": [
-    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
-  ],
+  "warnings": [],
   "raw_text": "LAXMI AUTO FUELS\n(Indian Oil Dealer)\nWardha Road,Nagpur-440015\nGSTIN:27ABCDE1234F1Z0\nTAXINVOICE/CASHMEMO\nBill No INV-48213\nDate 10-06-2026\nTime 18:42:07\nPump No 03 Nozzle: 2\nVeh No : MH31 CX 4821\nProduct:PETROL (MS)\nRate : Rs 102.04 /L\nVolume : 2.450 L\nTOTALAMOUNT:RS250.00\nPayment:UPI\nPrices incl. VAT as applicable\nThank you! Drive safe\nVisit again"
 }

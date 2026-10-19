@@ -468,11 +468,12 @@ HTML_UI_CONTENT = """<!DOCTYPE html>
             document.getElementById('engineBadge').innerText = data.engine + (data.is_degraded ? ' (Degraded Mode)' : '');
             document.getElementById('decisionReason').innerText = data.reason;
 
-            // Warnings (De-duplicated)
+            // Warnings (De-duplicated and filtered of operational notices)
             const discBox = document.getElementById('discrepancyBox');
             const warningsList = document.getElementById('warningsList');
             warningsList.innerHTML = '';
-            const uniqueWarnings = Array.from(new Set(data.warnings || []));
+            const uniqueWarnings = Array.from(new Set(data.warnings || []))
+                .filter(w => !w.toLowerCase().includes('degraded mode'));
             if (uniqueWarnings.length > 0) {
                 uniqueWarnings.forEach(w => {
                     const li = document.createElement('li');

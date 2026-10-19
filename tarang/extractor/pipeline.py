@@ -74,8 +74,6 @@ class ExtractionPipeline:
             # Fallback to local OCR engine
             bill = self.local_extractor.extract(resolved_path, claim_context)
             bill.is_degraded = True
-            if not self.llm_extractor.is_available():
-                bill.warnings.append("Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine.")
 
         # 5. Deterministic post-processing & validation
         bill = self._post_process(bill, claim_context)
