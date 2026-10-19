@@ -7,6 +7,7 @@ class FieldConfidence(BaseModel):
     receipt_number: float = 0.0
     gstin: float = 0.0
     total_amount: float = 0.0
+    vehicle_no: float = 0.0
 
 class ExtractedBill(BaseModel):
     vendor: str = Field("", description="Vendor name as printed on bill")
@@ -30,3 +31,8 @@ class ExtractedBill(BaseModel):
     cost_usd: float = 0.0
     warnings: List[str] = Field(default_factory=list)
     raw_text: Optional[str] = None
+
+    def add_warning(self, msg: str) -> None:
+        """Add warning only if not already present."""
+        if msg and msg not in self.warnings:
+            self.warnings.append(msg)

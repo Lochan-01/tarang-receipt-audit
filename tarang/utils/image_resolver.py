@@ -2,7 +2,7 @@ import os
 import re
 import hashlib
 from pathlib import Path
-from typing import Optional, Tuple, Dict
+from typing import Optional, Tuple, Dict, Union
 from tarang.config import IMAGES_DIR
 
 class ImageResolver:
@@ -70,9 +70,10 @@ class ImageResolver:
 
         return None, f"Image file '{raw_input}' not found on server (upload failure)"
 
-    def compute_sha256(self, file_path: Path) -> str:
+    def compute_sha256(self, file_path: Union[str, Path]) -> str:
         """Computes and caches SHA256 of the image file."""
-        p_str = str(file_path.resolve())
+        p = Path(file_path)
+        p_str = str(p.resolve())
         if p_str in self._hash_cache:
             return self._hash_cache[p_str]
         

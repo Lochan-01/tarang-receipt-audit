@@ -331,12 +331,13 @@ HTML_UI_CONTENT = """<!DOCTYPE html>
             document.getElementById('engineBadge').innerText = data.engine + (data.is_degraded ? ' (Degraded Mode)' : '');
             document.getElementById('decisionReason').innerText = data.reason;
 
-            // Warnings
+            // Warnings (De-duplicated)
             const discBox = document.getElementById('discrepancyBox');
             const warningsList = document.getElementById('warningsList');
             warningsList.innerHTML = '';
-            if (data.warnings && data.warnings.length > 0) {
-                data.warnings.forEach(w => {
+            const uniqueWarnings = Array.from(new Set(data.warnings || []));
+            if (uniqueWarnings.length > 0) {
+                uniqueWarnings.forEach(w => {
                     const li = document.createElement('li');
                     li.innerText = w;
                     warningsList.appendChild(li);
@@ -349,24 +350,35 @@ HTML_UI_CONTENT = """<!DOCTYPE html>
             // Fields Table
             const tbody = document.getElementById('fieldsTable');
             tbody.innerHTML = '';
+            const vehVal = data.fields.vehicle_no;
+            const vehFound = vehVal && vehVal.trim() && vehVal !== 'None' && vehVal !== 'N/A';
+            const vehConf = vehFound ? (data.confidences.vehicle_no !== undefined ? data.confidences.vehicle_no : 0.95) : 0.0;
+
             const fields = [
                 { name: 'Vendor Name', val: data.fields.vendor, conf: data.confidences.vendor },
                 { name: 'Receipt Date', val: data.fields.receipt_date, conf: data.confidences.receipt_date },
                 { name: 'Bill / Invoice No', val: data.fields.receipt_number, conf: data.confidences.receipt_number },
                 { name: 'GSTIN', val: data.fields.gstin || '(None / Non-GST)', conf: data.confidences.gstin },
                 { name: 'Total Amount', val: 'Rs ' + (data.fields.total_amount ? data.fields.total_amount.toFixed(2) : '0.00'), conf: data.confidences.total_amount },
-                { name: 'Vehicle No', val: data.fields.vehicle_no || 'N/A', conf: 1.0 },
+                { name: 'Vehicle No', val: vehFound ? vehVal : 'Not found', conf: vehConf, isMissing: !vehFound },
             ];
 
             fields.forEach(f => {
                 const tr = document.createElement('tr');
                 const confPct = Math.round((f.conf || 0) * 100);
-                const confClass = confPct >= 85 ? 'text-success' : (confPct >= 65 ? 'text-warning' : 'text-danger');
+                let confClass = confPct >= 85 ? 'text-success' : (confPct >= 65 ? 'text-warning' : 'text-danger');
+                let statusBadge = confPct >= 85 ? '<span class="badge bg-success">Verified</span>' : '<span class="badge bg-warning text-dark">Low Conf</span>';
+
+                if (f.isMissing || f.val === 'Not found' || confPct === 0) {
+                    confClass = 'text-muted';
+                    statusBadge = '<span class="badge bg-secondary">Missing</span>';
+                }
+
                 tr.innerHTML = `
                     <td class="fw-bold">${f.name}</td>
                     <td>${f.val}</td>
                     <td class="${confClass} fw-bold">${confPct}%</td>
-                    <td>${confPct >= 85 ? '<span class="badge bg-success">Verified</span>' : '<span class="badge bg-warning text-dark">Low Conf</span>'}</td>
+                    <td>${statusBadge}</td>
                 `;
                 tbody.appendChild(tr);
             });

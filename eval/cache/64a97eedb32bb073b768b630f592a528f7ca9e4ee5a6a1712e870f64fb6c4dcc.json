@@ -1,0 +1,28 @@
+{
+  "vendor": "Laxmi Auto Fuels",
+  "receipt_date": "2026-06-10",
+  "receipt_number": "INV-48213",
+  "gstin": "27ABCDE1234F1Z0",
+  "total_amount": 250.0,
+  "subtotal": null,
+  "tax": 27.0,
+  "rate": 102.04,
+  "volume": 2.45,
+  "vehicle_no": "MH31 CX 4821",
+  "confidences": {
+    "vendor": 0.95,
+    "receipt_date": 0.95,
+    "receipt_number": 0.95,
+    "gstin": 0.99,
+    "total_amount": 0.95,
+    "vehicle_no": 0.95
+  },
+  "engine": "rapidocr",
+  "is_degraded": true,
+  "tokens_used": 0,
+  "cost_usd": 0.0,
+  "warnings": [
+    "Degraded mode: No Vision LLM API key set. Extracted using local CPU OCR engine."
+  ],
+  "raw_text": "LAXMI AUTO FUELS\n(Indian Oil Dealer)\nWardha Road,Nagpur-440015\nGSTIN:27ABCDE1234F1Z0\nTAXINVOICE/CASHMEMO\nBill No INV-48213\nDate 10-06-2026\nTime 18:42:07\nPump No 03 Nozzle: 2\nVeh No : MH31 CX 4821\nProduct:PETROL (MS)\nRate : Rs 102.04 /L\nVolume : 2.450 L\nTOTALAMOUNT:RS250.00\nPayment:UPI\nPrices incl. VAT as applicable\nThank you! Drive safe\nVisit again"
+}

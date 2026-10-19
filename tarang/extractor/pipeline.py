@@ -135,6 +135,13 @@ class ExtractionPipeline:
         parsed_amt = parse_indian_amount(bill.total_amount)
         bill.total_amount = parsed_amt if parsed_amt is not None else 0.0
 
+        # Inferred amount fallback if total was missing but rate * volume is valid
+        if (bill.total_amount <= 0.0) and (bill.rate is not None and bill.volume is not None and bill.rate > 0 and bill.volume > 0):
+            inferred = round(bill.rate * bill.volume, 2)
+            bill.total_amount = inferred
+            bill.confidences.total_amount = 0.35  # low confidence
+            bill.add_warning(f"Suggested amount (inferred from rate x volume): Rs {inferred:.2f}")
+
         # Math cross check
         is_ok, m_conf, m_reason = validate_amount_breakdown(
             bill.total_amount,
@@ -144,7 +151,10 @@ class ExtractionPipeline:
             volume=bill.volume
         )
         if not is_ok:
-            bill.warnings.append(m_reason)
+            bill.add_warning(m_reason)
             bill.confidences.total_amount = min(bill.confidences.total_amount, m_conf)
+
+        # De-duplicate all warnings
+        bill.warnings = list(dict.fromkeys(bill.warnings))
 
         return bill

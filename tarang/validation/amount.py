@@ -1,10 +1,29 @@
 import re
 from typing import Tuple, Optional, Dict, Any
 
+def clean_candidate_numeral(raw_str: str) -> str:
+    """
+    Cleans common OCR character confusions inside numeric / currency tokens:
+    - O / o -> 0
+    - l / I -> 1
+    - S / s -> 5 inside or bordering numerals
+    - European decimal comma (e.g. '250,00' -> '250.00')
+    """
+    s = raw_str.strip()
+    # 1. OCR letter-digit confusions
+    s = re.sub(r'^[lI](?=\d)', '1', s)
+    s = re.sub(r'(?i)[o]', '0', s)
+    s = re.sub(r'[lI]', '1', s)
+    s = re.sub(r'(?i)[s]', '5', s)
+    # 2. European comma as decimal (e.g. '250,00' -> '250.00')
+    if ',' in s and '.' not in s:
+        s = re.sub(r'(\d+),(\d{2})$', r'\1.\2', s)
+    return s
+
 def parse_indian_amount(raw_val: Any) -> Optional[float]:
     """
     Parses amount string in Indian numbering / currency format:
-    e.g. 'Rs. 2,400', '3,539.00', '₹ 1,120.00', '330'
+    e.g. 'Rs. 2,400', '3,539.00', '₹ 1,120.00', '330', 'TOTALAMOUNT:RS250.00'
     Returns float value, or None if unparseable or non-monetary (e.g. pax, %, items).
     """
     if raw_val is None:
@@ -20,12 +39,23 @@ def parse_indian_amount(raw_val: Any) -> Optional[float]:
     if '%' in s or '@' in s:
         return None
 
+    # Remove labels: TOTAL AMOUNT, GRAND TOTAL, NET AMT, TOTAL, AMOUNT
+    s = re.sub(r'(?i)\b(grand\s*total|total\s*amount|amount\s*payable|amt\s*payable|net\s*amt|net\s*amount|total|amount)\b', '', s)
+    s = re.sub(r'(?i)(totalamount|grandtotal|netamt|amtpayable)', '', s)
     # Remove currency symbols and word tokens
     s = re.sub(r'(?i)(rs\.?|inr|₹|\/-\b|\bpkr\b)', '', s).strip()
-    # Remove commas
-    s = s.replace(',', '')
-    
-    # Extract floating number
+
+    # Find the numeric token
+    m_num = re.search(r'([0-9oOlIsS]+(?:[,\.][0-9oOlIsS]+)*)', s)
+    if m_num:
+        cand_num = clean_candidate_numeral(m_num.group(1))
+        cand_num = cand_num.replace(',', '')
+        try:
+            return round(float(cand_num), 2)
+        except ValueError:
+            pass
+
+    # Fallback to standard float search
     m = re.search(r'[-+]?\d*\.?\d+', s)
     if not m:
         return None
@@ -44,9 +74,16 @@ def validate_amount_breakdown(
 ) -> Tuple[bool, float, str]:
     """
     Performs arithmetic cross-checks on line items:
-    1. Subtotal + tax vs Total (within Rs 1.50 rounding tolerance)
-    2. Rate * Volume vs Total for fuel
+    1. Total missing vs rate * volume
+    2. Subtotal + tax vs Total (within Rs 2.00 rounding tolerance)
+    3. Rate * Volume vs Total for fuel
     """
+    # If total is not found or <= 0
+    if total is None or total <= 0.0:
+        if rate is not None and volume is not None and rate > 0 and volume > 0:
+            return False, 0.3, "Total not found, cannot cross-check rate x volume"
+        return True, 0.5, "Total amount missing"
+
     # 1. Tax cross-check
     if subtotal is not None and tax is not None:
         expected = subtotal + tax

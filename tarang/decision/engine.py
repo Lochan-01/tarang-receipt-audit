@@ -93,13 +93,16 @@ class DecisionEngine:
         if any("zero text lines" in w.lower() or "unreadable" in w.lower() for w in bill.warnings):
             return "review", "Bill photo unreadable, pitch black, or out of focus"
 
+        if any("suggested amount" in w.lower() for w in bill.warnings):
+            return "review", f"Total not printed on bill; suggested amount (inferred from rate x volume: Rs {bill.total_amount:,.2f}) requires clerk review"
+
         if bill.total_amount <= 0.0 and bill.confidences.total_amount < 0.30:
             return "review", "Could not read bill amount from receipt photo"
 
         # -------------------------------------------------------------
         # GATE 2: Tampering & Arithmetic Discrepancies
         # -------------------------------------------------------------
-        math_warnings = [w for w in bill.warnings if "mismatch" in w.lower() or "arithmetic" in w.lower()]
+        math_warnings = [w for w in bill.warnings if "mismatch" in w.lower() or "arithmetic" in w.lower() or "total not found" in w.lower()]
         if math_warnings:
             return "review", f"Bill arithmetic discrepancy: {math_warnings[0]}"
 
