@@ -15,8 +15,8 @@ Designed to automate high-volume medical representative expense claims, eliminat
 ### 2. Clone and Setup Virtual Environment
 ```bash
 # Clone the repository
-git clone <REPO_URL>
-cd "banao assign2"
+git clone https://github.com/Lochan-01/tarang-receipt-audit.git
+cd tarang-receipt-audit
 
 # Create a virtual environment
 python -m venv .venv

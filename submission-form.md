@@ -1,6 +1,6 @@
 # Take-Home Submission Form: Tarang Pharma Distribution
 
-**Repository URL:** [PLACEHOLDER: Insert public GitHub repository URL]  
+**Repository URL:** https://github.com/Lochan-01/tarang-receipt-audit  
 **Screen Recording Video:** [PLACEHOLDER: Insert 3-minute screen recording link]  
 **Author / Pair Programmer:** Antigravity AI Assistant  
 **Date:** October 19, 2026
