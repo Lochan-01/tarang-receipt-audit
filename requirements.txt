@@ -10,3 +10,4 @@ rapidocr_onnxruntime>=1.2.0
 onnxruntime>=1.18.0
 pypdf>=5.0.0
 pytest>=8.0.0
+playwright>=1.40.0

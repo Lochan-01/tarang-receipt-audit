@@ -159,6 +159,10 @@ HTML_UI_CONTENT = """<!DOCTYPE html>
         .diff-alert { border-left: 4px solid #dc3545; background-color: #fff5f5; padding: 12px; border-radius: 4px; margin-top: 10px; }
         .preview-box { border: 2px dashed #cbd5e0; border-radius: 8px; min-height: 220px; display: flex; align-items: center; justify-content: center; background: #fff; overflow: hidden; }
         .preview-box img { max-width: 100%; max-height: 300px; object-fit: contain; }
+        .fade-in { animation: fadeIn 0.35s ease-in-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+        .invalid-feedback-custom { display: none; color: #dc3545; font-size: 0.825rem; margin-top: 4px; }
+        .is-invalid ~ .invalid-feedback-custom { display: block; }
     </style>
 </head>
 <body>
@@ -175,54 +179,66 @@ HTML_UI_CONTENT = """<!DOCTYPE html>
             <div class="col-md-5">
                 <div class="card p-4 mb-4">
                     <h5 class="card-title text-primary mb-3">1. Rep Claim Submission</h5>
-                    <form id="claimForm">
+                    <form id="claimForm" novalidate>
+                        <!-- Always visible: File Chooser & Preview Box -->
                         <div class="mb-3">
                             <label class="form-label fw-bold">Receipt Photo</label>
                             <input type="file" class="form-control" id="receiptFile" accept="image/*">
                         </div>
                         <div class="preview-box mb-3" id="imgPreview">
-                            <span class="text-muted">Receipt preview will appear here</span>
+                            <span class="text-muted" id="previewPlaceholderText">Receipt preview will appear here</span>
                         </div>
-                        <div class="row g-2 mb-2">
-                            <div class="col-6">
-                                <label class="form-label">Employee ID</label>
-                                <select class="form-select" id="empId">
-                                    <option value="TPD-0412">Rohan Wankhede (M1 - MH31 EK 4471)</option>
-                                    <option value="TPD-0418">Sneha Bhoyar (M1 - MH31 FA 2290)</option>
-                                    <option value="TPD-0431">Pooja Meshram (M2 - MH31 DX 0981)</option>
-                                    <option value="TPD-0452">Kalyani Deshmukh (M2 - MH32 BB 1205)</option>
-                                    <option value="TPD-0388">Amol Kathane (M3 - Area Mgr - MH31 FR 1147)</option>
-                                </select>
+
+                        <!-- Hidden on page load, revealed only after receipt image is selected -->
+                        <div id="claimFieldsSection" class="d-none">
+                            <div class="row g-2 mb-2">
+                                <div class="col-6">
+                                    <label class="form-label fw-semibold">Employee ID</label>
+                                    <select class="form-select" id="empId" required>
+                                        <option value="" disabled selected>Select employee</option>
+                                        <option value="TPD-0412">Rohan Wankhede (M1 - MH31 EK 4471)</option>
+                                        <option value="TPD-0418">Sneha Bhoyar (M1 - MH31 FA 2290)</option>
+                                        <option value="TPD-0431">Pooja Meshram (M2 - MH31 DX 0981)</option>
+                                        <option value="TPD-0452">Kalyani Deshmukh (M2 - MH32 BB 1205)</option>
+                                        <option value="TPD-0388">Amol Kathane (M3 - Area Mgr - MH31 FR 1147)</option>
+                                    </select>
+                                    <div class="invalid-feedback-custom" id="err-empId">Please select an employee.</div>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label fw-semibold">Category</label>
+                                    <select class="form-select" id="category" required>
+                                        <option value="" disabled selected>Select category</option>
+                                        <option value="Fuel">Fuel</option>
+                                        <option value="Food">Food</option>
+                                        <option value="Lodging">Lodging</option>
+                                        <option value="Local travel">Local travel</option>
+                                        <option value="Courier">Courier</option>
+                                        <option value="Parking">Parking</option>
+                                    </select>
+                                    <div class="invalid-feedback-custom" id="err-category">Please select a category.</div>
+                                </div>
                             </div>
-                            <div class="col-6">
-                                <label class="form-label">Category</label>
-                                <select class="form-select" id="category">
-                                    <option value="Fuel">Fuel</option>
-                                    <option value="Food">Food</option>
-                                    <option value="Lodging">Lodging</option>
-                                    <option value="Local travel">Local travel</option>
-                                    <option value="Courier">Courier</option>
-                                    <option value="Parking">Parking</option>
-                                </select>
+                            <div class="row g-2 mb-2">
+                                <div class="col-6">
+                                    <label class="form-label fw-semibold">Claimed Amount (Rs)</label>
+                                    <input type="text" class="form-control" id="claimedAmt" placeholder="Enter amount in Rs" value="" required>
+                                    <div class="invalid-feedback-custom" id="err-claimedAmt">Please enter amount in Rs.</div>
+                                </div>
+                                <div class="col-6">
+                                    <label class="form-label fw-semibold">Expense Date</label>
+                                    <input type="text" class="form-control" id="expenseDate" placeholder="YYYY-MM-DD" value="" required>
+                                    <div class="invalid-feedback-custom" id="err-expenseDate">Please enter expense date.</div>
+                                </div>
                             </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold">Claimed Vendor</label>
+                                <input type="text" class="form-control" id="vendorHint" placeholder="Vendor name as entered by rep" value="" required>
+                                <div class="invalid-feedback-custom" id="err-vendorHint">Please enter vendor name.</div>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 py-2 fw-bold" id="btnSubmit" disabled>
+                                Process Claim & Audit Policy
+                            </button>
                         </div>
-                        <div class="row g-2 mb-2">
-                            <div class="col-6">
-                                <label class="form-label">Claimed Amount (Rs)</label>
-                                <input type="text" class="form-control" id="claimedAmt" placeholder="e.g. 250.00" value="250.00">
-                            </div>
-                            <div class="col-6">
-                                <label class="form-label">Expense Date</label>
-                                <input type="text" class="form-control" id="expenseDate" placeholder="DD-MM-YYYY" value="10-06-2026">
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Claimed Vendor</label>
-                            <input type="text" class="form-control" id="vendorHint" placeholder="e.g. Laxmi Auto Fuels" value="Laxmi Auto Fuels">
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100 py-2 fw-bold" id="btnSubmit">
-                            Process Claim & Audit Policy
-                        </button>
                     </form>
                 </div>
             </div>
@@ -280,31 +296,146 @@ HTML_UI_CONTENT = """<!DOCTYPE html>
         const fileInput = document.getElementById('receiptFile');
         const imgPreview = document.getElementById('imgPreview');
         const claimForm = document.getElementById('claimForm');
+        const claimFieldsSection = document.getElementById('claimFieldsSection');
+        const btnSubmit = document.getElementById('btnSubmit');
         const loading = document.getElementById('loading');
         const resultsPlaceholder = document.getElementById('resultsPlaceholder');
         const resultsContent = document.getElementById('resultsContent');
 
+        const empInput = document.getElementById('empId');
+        const catInput = document.getElementById('category');
+        const amtInput = document.getElementById('claimedAmt');
+        const dateInput = document.getElementById('expenseDate');
+        const vendorInput = document.getElementById('vendorHint');
+
+        const inputs = [empInput, catInput, amtInput, dateInput, vendorInput];
+
+        // Reset all claim fields to empty without default values
+        function resetClaimFields() {
+            empInput.selectedIndex = 0;
+            catInput.selectedIndex = 0;
+            amtInput.value = '';
+            dateInput.value = '';
+            vendorInput.value = '';
+
+            inputs.forEach(el => {
+                el.classList.remove('is-invalid');
+                const err = document.getElementById('err-' + el.id);
+                if (err) err.style.display = 'none';
+            });
+            btnSubmit.disabled = true;
+        }
+
+        // Reset the results panel back to initial placeholder
+        function resetResultsPanel() {
+            resultsContent.classList.add('d-none');
+            resultsPlaceholder.classList.remove('d-none');
+            document.getElementById('fieldsTable').innerHTML = '';
+            document.getElementById('warningsList').innerHTML = '';
+            document.getElementById('discrepancyBox').classList.add('d-none');
+        }
+
+        // Validate all 5 claim fields
+        function validateForm(showErrors = false) {
+            const hasFile = fileInput.files && fileInput.files.length > 0;
+            const empVal = empInput.value.trim();
+            const catVal = catInput.value.trim();
+            const amtVal = amtInput.value.trim();
+            const dateVal = dateInput.value.trim();
+            const vendorVal = vendorInput.value.trim();
+
+            const isEmpOk = empVal.length > 0;
+            const isCatOk = catVal.length > 0;
+            const isAmtOk = amtVal.length > 0;
+            const isDateOk = dateVal.length > 0;
+            const isVendorOk = vendorVal.length > 0;
+
+            if (showErrors) {
+                toggleFieldValidation(empInput, !isEmpOk);
+                toggleFieldValidation(catInput, !isCatOk);
+                toggleFieldValidation(amtInput, !isAmtOk);
+                toggleFieldValidation(dateInput, !isDateOk);
+                toggleFieldValidation(vendorInput, !isVendorOk);
+            }
+
+            const allFilled = hasFile && isEmpOk && isCatOk && isAmtOk && isDateOk && isVendorOk;
+            btnSubmit.disabled = !allFilled;
+            return allFilled;
+        }
+
+        function toggleFieldValidation(el, isInvalid) {
+            const err = document.getElementById('err-' + el.id);
+            if (isInvalid) {
+                el.classList.add('is-invalid');
+                if (err) err.style.display = 'block';
+            } else {
+                el.classList.remove('is-invalid');
+                if (err) err.style.display = 'none';
+            }
+        }
+
+        // Listen for user input on all 5 fields
+        inputs.forEach(el => {
+            el.addEventListener('input', () => {
+                toggleFieldValidation(el, !el.value.trim());
+                validateForm(false);
+            });
+            el.addEventListener('change', () => {
+                toggleFieldValidation(el, !el.value.trim());
+                validateForm(false);
+            });
+            el.addEventListener('blur', () => {
+                toggleFieldValidation(el, !el.value.trim());
+                validateForm(false);
+            });
+        });
+
+        // Image file selection handler
         fileInput.addEventListener('change', function(e) {
-            const file = e.target.files[0];
+            const file = e.target.files && e.target.files[0];
+            
+            // Clear previous result panel
+            resetResultsPanel();
+
             if (file) {
+                // Render preview
                 const reader = new FileReader();
                 reader.onload = function(evt) {
-                    imgPreview.innerHTML = `<img src="${evt.target.result}">`;
-                }
+                    imgPreview.innerHTML = `<img src="${evt.target.result}" alt="Receipt Preview">`;
+                };
                 reader.readAsDataURL(file);
+
+                // Reset claim fields to ensure no default or carry-over data
+                resetClaimFields();
+
+                // Reveal claim fields section
+                claimFieldsSection.classList.remove('d-none');
+                claimFieldsSection.classList.add('fade-in');
+
+                // Keep submit button disabled until all fields are filled
+                validateForm(true);
+            } else {
+                // If user cancelled or removed the image
+                imgPreview.innerHTML = `<span class="text-muted" id="previewPlaceholderText">Receipt preview will appear here</span>`;
+                claimFieldsSection.classList.add('d-none');
+                resetClaimFields();
+                resetResultsPanel();
             }
         });
 
+        // Form submit handler
         claimForm.addEventListener('submit', async function(e) {
             e.preventDefault();
+            if (!validateForm(true)) return;
+
             const file = fileInput.files[0];
             const formData = new FormData();
             if (file) formData.append('file', file);
-            formData.append('emp_id', document.getElementById('empId').value);
-            formData.append('category', document.getElementById('category').value);
-            formData.append('amount_claimed', document.getElementById('claimedAmt').value);
-            formData.append('expense_date', document.getElementById('expenseDate').value);
-            formData.append('vendor', document.getElementById('vendorHint').value);
+            formData.append('emp_id', empInput.value);
+            formData.append('category', catInput.value);
+            formData.append('amount_claimed', amtInput.value);
+            formData.append('expense_date', dateInput.value);
+            formData.append('vendor', vendorInput.value);
 
             loading.classList.remove('d-none');
             resultsPlaceholder.classList.add('d-none');
@@ -314,6 +445,12 @@ HTML_UI_CONTENT = """<!DOCTYPE html>
                 const resp = await fetch('/extract', { method: 'POST', body: formData });
                 const data = await resp.json();
                 renderResults(data);
+
+                // Reset form fields after processing so previous values never carry over
+                resetClaimFields();
+                fileInput.value = '';
+                imgPreview.innerHTML = `<span class="text-muted" id="previewPlaceholderText">Receipt preview will appear here</span>`;
+                claimFieldsSection.classList.add('d-none');
             } catch (err) {
                 alert('Extraction error: ' + err.message);
             } finally {
